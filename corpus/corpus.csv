@@ -1,0 +1,1321 @@
+text,intent,lang
+Me pueden asesorar pa constituir una EIRL en Santiago?,constituir_empresa,es
+o loratadina serve para dor de cabeca?,consultar_medicina,pt
+Deseo comprar dos boletos a Piura 🍕,comprar_vuelo,es
+Deseo presentar una queja formal por mi pedido ✈️,reclamo,es
+how much is a gynecology consultation?,agendar_cita_medica,en
+Quiero formalizar mi negocio y sacar RUC para mi negocio hola ✈️,constituir_empresa,es
+me consigues un pasaje a ima para manana?,comprar_vuelo,es
+cuando llega mi pedido de la laptop?,seguimiento_pedido,es
+Tienen habitaciones disponibles en Medellin para el finde? porfa,reservar_hotel,es
+quiero pedir una pizza americana,comprar_pizza,es
+Me consigues un pasaje a Lima pa manana?,comprar_vuelo,es
+bao noite,saludo,pt
+I want to track my order number 4821,seguimiento_pedido,en
+"meu pacote ainda nao chegou, onde esta?",seguimiento_pedido,pt
+"i want to file a complaint, the headphones arrived damaged",reclamo,en
+"Hla, buenas noches",saludo,es
+"thanks for the help, bye",despedida,en
+when does my the tv order arrive?,seguimiento_pedido,en
+el sistema me da eror al cargar la pagina por favor,soporte_tecnico,es
+Tem quartos disponiveis em Sao Paulo no fim de semana?,reservar_hotel,pt
+Que documentos piden para constituir una empresa de servicios?,constituir_empresa,es
+how much does it cost 2 create a company?,constituir_empresa,en
+quiero comprar una pizza americana ahora,comprar_pizza,es
+Hey ohla,saludo,es
+no puedo transferir dinero desde mi cuenta por favor,consulta_banca,es
+"me antojo una pepperoni, tienen promo?",comprar_pizza,es
+haganme delivery de una pizza americana porfa,comprar_pizza,es
+"Buenas, un gusto saludarlos",saludo,es
+tem pizza margherita? quero pedir uma,comprar_pizza,pt
+Preciso do status do meu envio,seguimiento_pedido,pt
+me consigues un pasaje a cusco para manana?,comprar_vuelo,es
+"Buenas, hay alguiien?",saludo,es
+Mi cuenta esta bloqueada ❤️,soporte_tecnico,es
+"mi paquete aun no llega, donnde esta? ✈️",seguimiento_pedido,es
+How much is a double room in Panama City?,reservar_hotel,en
+"quisiera abrir una sac, por donde empiezo?",constituir_empresa,es
+"Saludos, buenos dias a todos gracias",saludo,es
+hello there,saludo,en
+"quiero un reembolso, la impresora vino deefectuoso 😀",reclamo,es
+"Estou muito irritado, o servico foi pessimo",reclamo,pt
+ya pague pero no see cuando llega mi pedido ✈️,seguimiento_pedido,es
+Hola que tal por afvor,saludo,es
+"pesimo servicio, quiero hablar con un supervisor",reclamo,es
+cuanto cuesta un pasaje a arequipa con avianca?,comprar_vuelo,es
+Do you have rooms available in Bogota this weekend?,reservar_hotel,en
+quiero una consulta de ginecologia pa mi hijo urgente ❤️,agendar_cita_medica,es
+"I want to set up a company, what do I need? hi",constituir_empresa,en
+i was overcharged and i want 2 complain,reclamo,en
+"Muy amale, que tenga buen dia",despedida,es
+"Ok gracias, bye 👍",despedida,es
+Busco un hostal economico en Medellin ✈️,reservar_hotel,es
+Cuanto cuesta crear una EIRL? 🍕,constituir_empresa,es
+necesito el estado de mi envo urgente,seguimiento_pedido,es
+cuanto demora registrar una srl?,constituir_empresa,es
+Necesito un vuelo ida y vuelta a Cusco 😀,comprar_vuelo,es
+que peudo tomar si tengo dolor de espalda? 🏨,consultar_medicina,es
+que dosis de amoxicilina debo tomar? urgente 😊,consultar_medicina,es
+"nos vemos, cuidate porfa",despedida,es
+"Me duele mucho, tengo fiebre alta, q medicamento tomo? 😊",consultar_medicina,es
+quisiera hacer una reserva en un hotel cerca del centro,reservar_hotel,es
+Cuanto cuesta una habitacion doble en Santiago?,reservar_hotel,es
+i cant log into my account,soporte_tecnico,en
+cuanot cuesta una consulta de traumatologia? por favor,consultar_medicina,es
+necesito una cconsulta de cardiologia,consultar_medicina,es
+que documentos piden para constituir una sac? hola,constituir_empresa,es
+necesito el estado dde cuenta de este mes urgente,consulta_banca,es
+i was overcharged and i want to complain,reclamo,en
+quiero comprar un vuelo a bogota ❤️,comprar_vuelo,es
+el omeprazol sirve para dolor de cabeza? hola 😊,consultar_medicina,es
+Me reservan una habitacion en Ciudad de Mexico del 10 al 15? ✈️,reservar_hotel,es
+"hola, buenas noches",saludo,es
+Hay vuelos a Arequipa para el sabdo?,comprar_vuelo,es
+i need a orthopedics consultation 🙌,consultar_medicina,en
+Quiero agendar una cita con oftalmologia 😊,agendar_cita_medica,es
+cuanto cuesta la pizza vegetariana familiar? urgente,comprar_pizza,es
+the system gives me an error loading the page 😀,soporte_tecnico,en
+Id like to make a reservation at a 4 star hotel,reservar_hotel,en
+Donde esta mi pedido? 🙏,seguimiento_pedido,es
+busco un hostal economico en piura,reservar_hotel,es
+quiero una consulta de odontologia para mi hijo,agendar_cita_medica,es
+donde esta mi pedido? 🙌,seguimiento_pedido,es
+"Quiero pagar mi tarjeta, cuanto debo? ❤️",consulta_banca,es
+cual es e saldo de mi cuenta? 😊,consulta_banca,es
+se me congela la pantalla en la aplicacion,soporte_tecnico,es
+deseo presentar una queja formal por mi pedido,reclamo,es
+el boton de pago no responde en la web,soporte_tecnico,es
+I need a gynecology consultation,consultar_medicina,en
+Quiero consultar los movimientos de mi cuenta,consulta_banca,es
+"Ok thank you, bye ✈️",despedida,en
+Me pueden dar el tracking de mi oorden?,seguimiento_pedido,es
+id like to schedule a gynecology visit in miami 🙏,agendar_cita_medica,en
+Necesio un hotel boutique para 3 noches en Arequipa,reservar_hotel,es
+necesito el estado de cuenta de este mes,consulta_banca,es
+cuantas veces al dia debo tomar naproxeno? urgente,consultar_medicina,es
+busco un hotel cerca del centro economico en trujillo 👍,reservar_hotel,es
+o que posso tomar se tenho dor de garganta?,consultar_medicina,pt
+"Saludos, buenos dia a todos",saludo,es
+i want to buy a flight to sao paulo,comprar_vuelo,en
+cuantas veces al dia debo tomar amoxicilina? por favor,consultar_medicina,es
+Necesito un hotel boutique para 3 noches en Lima,reservar_hotel,es
+quisiera reservar un vuelo con latam a lima porfa 😊,comprar_vuelo,es
+"Mi paquete aun no llega, donde esta? gracias",seguimiento_pedido,es
+quanto custa uma consulta de pediatria? 🏨,consultar_medicina,pt
+cuanto cuesta una consulta de dermatologia?,consultar_medicina,es
+"Gostaria de abrir uma startup, por onde comeco?",constituir_empresa,pt
+"Listo, hasta pronto 😊",despedida,es
+"tengo dolor de espalda desde ayer, que hago? 😀",consultar_medicina,es
+"hola, buenas noches urgente 🏨",saludo,es
+How much is a pediatricss consultation? hi,agendar_cita_medica,en
+quiero reservar un hotel cerca del centro en ciudad de mexico,reservar_hotel,es
+"Saldos, buenos dias a todos",saludo,es
+quiero formalizar mi negocio y sacar ruc para una srl 🙏,constituir_empresa,es
+the app is very slow and wont load,soporte_tecnico,en
+"la laptop que compre no funciona, exijo solucion",reclamo,es
+como registro um pequeno negocio em lima?,constituir_empresa,pt
+preciso de uma consulta de dermatologia esta semana,agendar_cita_medica,pt
+Me pueden dar el tracking de mi orden?,seguimiento_pedido,es
+"buenas, hay alguin?",saludo,es
+Tem pizza quatro queijos? quero pedir uma,comprar_pizza,pt
+mi cuenta no funcionaa urgente,consulta_banca,es
+hay disponibilidad en un hostal para el vierrnes? hola,reservar_hotel,es
+My account is not working asap,consulta_banca,en
+como registro una sac en santiago? 🍕,constituir_empresa,es
+"The product arrived broken, I want a refund asap",reclamo,en
+que dosis de naproxeno debo tomar?,consultar_medicina,es
+necesito una consulta de dermatologia,agendar_cita_medica,es
+Haganme delivery de una pizza criolla porfa,comprar_pizza,es
+i want to buy a flight to miami,comprar_vuelo,en
+Quanto custa a pizza veggetariana grande?,comprar_pizza,pt
+Quanto tenho na minha conta poupanca?,consulta_banca,pt
+tienen habitaciones disponibles en piura paa el finde?,reservar_hotel,es
+Olvide mi contrasena y no puedo recuperarla hola,soporte_tecnico,es
+my app account is not working,soporte_tecnico,en
+"Quiero un reembolso, el audifono vino defectuoso hola",reclamo,es
+"obrigado ela ajuda, adeus obrigado 😊",despedida,pt
+"Mi paquete aun no llega, donde esta?",seguimiento_pedido,es
+hay disponibilidad en un hotel cerca del centro para el viernes?,reservar_hotel,es
+tienen disponibilidad para una consulta de pediatria? porfa,agendar_cita_medica,es
+quisiera reservar un vuelo con avianca a cusco,comprar_vuelo,es
+"quisiera abrir una eirl, por donde empiezo?",constituir_empresa,es
+"ok muchas gracias, chau hola 🙌",despedida,es
+es seguro tomar aspirina para dolor de garganta?,consultar_medicina,es
+como registro una empresa de servicios en quito?,constituir_empresa,es
+"el teclado que compre no funcioona, exijo solucion",reclamo,es
+"oi, tudo certo?",saludo,pt
+"ok muchas gracis, chau",despedida,es
+quiero una consulta de odontologia para mi hijo,consultar_medicina,es
+"Tengo dolor de garganta, que me recomiendan?",consultar_medicina,es
+deseo una pizza criolla grande conn extra queso hola,comprar_pizza,es
+Preciso do status do meu envio 😀,seguimiento_pedido,pt
+"que tal, buen dia",saludo,es
+how do i register a startup in madrid?,constituir_empresa,en
+quiero una consulta de pediatria para mi hijo,agendar_cita_medica,es
+tienen pizza pepperoni? quiero pedir una,comprar_pizza,es
+Quiero comprar un vuelo a Medellin urgente,comprar_vuelo,es
+no me deja iniciar sesion en mi cuenta,consulta_banca,es
+la app se cierra sola cada vez que la abro,soporte_tecnico,es
+"im very upset, the service was terrible thanks 😊",reclamo,en
+"Me antojo una catro quesos, tienen promo?",comprar_pizza,es
+Cuanto cuesta una consulta de oftalmoogia?,agendar_cita_medica,es
+deseo comprar dos boletos a lima,comprar_vuelo,es
+quantas vezes ao ddia devo tomar ibuprofeno? 🙌,consultar_medicina,pt
+"Perfeito, ate mais por favor 🏨",despedida,pt
+what documents are required to register an llc?,constituir_empresa,en
+cuanto cuesta una consulta de ginecologia?,agendar_cita_medica,es
+What documents are required to register an LLC?,constituir_empresa,en
+quisiera reservar un vuelo con latam a arequipa,comprar_vuelo,es
+deseo comprar dos boletos  piura,comprar_vuelo,es
+"Ola, boom dia",saludo,pt
+Im not getting the verification code please,soporte_tecnico,en
+busco vuelos baratos a ciudad de mexic urgente,comprar_vuelo,es
+necesito ayuda pa formalizar mi startuup,constituir_empresa,es
+"Perfeco, nos vemos",despedida,es
+mi cuetna me da error,soporte_tecnico,es
+How much is a gynecology consultation? hi,agendar_cita_medica,en
+"Quiero un reembolso, el audifono vino defectuoso gracias",reclamo,es
+i need a round trip flight to cancun,comprar_vuelo,en
+cuanto cuesta una consluta de dermatologia? 😀,agendar_cita_medica,es
+Can you help me start a small business? hi,constituir_empresa,en
+ya pague pero noo se cuando llega mi pedido,seguimiento_pedido,es
+Que documentos piden para constituir una SAC?,constituir_empresa,es
+Cuanto falta pa q llegue mi compra? hola,seguimiento_pedido,es
+como solicito un aumento de linea de credito?,consulta_banca,es
+"saludos, buenos dias a todos",saludo,es
+cuanto cuesta una consulta de cardiologia? gracias ✈️,consultar_medicina,es
+"gracias por la ayuda, adios",despedida,es
+"ok muchas gracias, chau urgente ❤️",despedida,es
+No puedo entrar a mi cuenta,consulta_banca,es
+how much is a large marghrita pizza?,comprar_pizza,en
+"Me antojo una de peperoni, tienen promo?",comprar_pizza,es
+cuanto tengo disponible en mi cuenta de ahorros?,consulta_banca,es
+is there availability at a 4 star hotel for friday?,reservar_hotel,en
+Quisiera reservar una cita de ginecologia en Lima,agendar_cita_medica,es
+cuanto cuesta un pasaje a arequipa con sky? 🙏,comprar_vuelo,es
+"Necesito ver a un especialista en cardiologia, hay citas? 🙌",agendar_cita_medica,es
+"My package hasnt arrived yet, where is it?? hi",seguimiento_pedido,en
+Id like a veggie pizza for pickup,comprar_pizza,en
+"The product arrived broen, I want a refund please",reclamo,en
+my account is not working please ❤️,soporte_tecnico,en
+Quiero rastrear mi orden numero 4821,seguimiento_pedido,es
+"oi, tudo certo? 🙏",saludo,pt
+cuanto cuesta la pizza cuatro quesos familiar?,comprar_pizza,es
+Cuando llega mi pedido de la television?,seguimiento_pedido,es
+necesito un hotel cerca del centro pa 3 noches en medellin,reservar_hotel,es
+Is there availabilit at a hostel 4 friday? 😀,reservar_hotel,en
+how much is a cardiology consultation?,agendar_cita_medica,en
+"Perfect, goodbye",despedida,en
+hay vuelos a bogota para el sabado?,comprar_vuelo,es
+can i get a margherita pizza with extra cheese?,comprar_pizza,en
+"Ok gracias, bye 😊",despedida,es
+Cuanto cuesta una habitacion doble en Trujillo?,reservar_hotel,es
+"Hi, is anyone there? 👍",saludo,en
+"i want to pay my card, how much do i owe? please",consulta_banca,en
+the system gives me an error loading the page thanks,soporte_tecnico,en
+quanto custa um quarto duplo em bogota? 🍕,reservar_hotel,pt
+necesito una consulta de cardiologia gracias,agendar_cita_medica,es
+tem quartos disponiveis em sao paulo no fim de semana?,reservar_hotel,pt
+"perfect, goodbye",despedida,en
+tem quartos disponiveis em santiago no fim de semana?,reservar_hotel,pt
+"ok thank you, bye thaks",despedida,en
+quiero comprar una pizza vegetariana ahora,comprar_pizza,es
+quiero una consulta de oftalmologia para mi hijo 😊,agendar_cita_medica,es
+quiero comprar un vuelo a lima urgente,comprar_vuelo,es
+deseo reservar un hotel cerca del centro con desayyuno incluido,reservar_hotel,es
+How much is a double room in Lima? ❤️,reservar_hotel,en
+como bloqueo mi tarjeta de credito? por favor,consulta_banca,es
+Cuanto cuesta crear mi negocio? 🙌,constituir_empresa,es
+Good morning everyone,saludo,en
+gostaria de agendar uma consulta de ginecologia em santiago,agendar_cita_medica,pt
+Are there flights to Santiago on saturday?,comprar_vuelo,en
+Necesito el estado de mi envoi,seguimiento_pedido,es
+"hol,a buenos dias 🍕",saludo,es
+"Buenas, hay aluien?",saludo,es
+quiero consultar los movimientos de mi cuenta,consulta_banca,es
+"buenas, un gusto saludarlos",saludo,es
+"gostaria de abrir um pequeno negocio, por onde comeco?",constituir_empresa,pt
+"el celular que compre no funciona, exijo solucion",reclamo,es
+necesito un hotel cerca del centro para 3 noches en cusco,reservar_hotel,es
+do u have rooms available in lima this weekend?,reservar_hotel,en
+i need a pediatrics consultation,agendar_cita_medica,en
+"Buenaas, hay alguien? 🙏",saludo,es
+no puedo iniciar sesion en la aplicacion por favor,soporte_tecnico,es
+"Eso seria todo, gracias y chau",despedida,es
+quisiera hacer una reserva en un resort,reservar_hotel,es
+"Buenas, hay aguien? hola 🏨",saludo,es
+me pueden dar el tracking de mi orden? 🏨,seguimiento_pedido,es
+el sistema me da error al cargar la pagina 👍,soporte_tecnico,es
+quiero pedir un pizza americana,comprar_pizza,es
+me consigues un pasaje a arequipa para manana? urgente,comprar_vuelo,es
+quero agendar uma consulta de dermatologia obrigado,agendar_cita_medica,pt
+cuanto cuesta la pizza vegetariana familiar? porfa,comprar_pizza,es
+quiero una consulta de traumatologia para mi hijo,agendar_cita_medica,es
+Cuanto cuesta una consulta de dermatologia?,agendar_cita_medica,es
+"quiero un reembolso, la laptop vino defectuoso porfa",reclamo,es
+hay disponibilidad en un hotel boutique para el viernes?,reservar_hotel,es
+im looking for cheap flights to sao paulo,comprar_vuelo,en
+How much does it cost to create a strtup? 🍕,constituir_empresa,en
+Cuanto cuesta una consulta de odontologia?,consultar_medicina,es
+Deseo una pizza napoitana grande con extra queso 😀,comprar_pizza,es
+Hey hola hola,saludo,es
+la app se cierra sola cada vez que la abro 🙌,soporte_tecnico,es
+Deseo presentar una queja formal por mi pedido,reclamo,es
+Deseo presentar una queja formal porr mi pedido,reclamo,es
+cuanto tengo disponible en mi cuenta ed ahorros? hola,consulta_banca,es
+Quiero una consulta de oftalmologia pa mi hijo,agendar_cita_medica,es
+no puedo acceder a mi cuenta porfa,consulta_banca,es
+do you have availability for  cardiology appointment?,agendar_cita_medica,en
+My account is not working hi,soporte_tecnico,en
+Me pueden ddar hora con el doctor de traumatologia? 🍕,agendar_cita_medica,es
+quanto custa uma consulta de dermatologia?,agendar_cita_medica,pt
+"Alright, see you soon",despedida,en
+me consigues un pasaje a bogota para manana?,comprar_vuelo,es
+como bloqueo mi tarjeta de credito?,consulta_banca,es
+Quanto custa criar um pequeno negocio? por favor,constituir_empresa,pt
+No puedo acceder a mi cuenta por favor,soporte_tecnico,es
+Quisiera ordenar dos pizzas hawaiana,comprar_pizza,es
+Voces entregam pizza portuguesa m Brasilia?,comprar_pizza,pt
+cuntas veces al dia debo tomar loratadina?,consultar_medicina,es
+can i book a slot with the gynecology doctor? ✈️,agendar_cita_medica,en
+cuanto cuesta una consulta de pediatria? 👍,agendar_cita_medica,es
+"thannks, see u later",despedida,en
+"es seria todo, gracias y chau",despedida,es
+quisiera ordenar dos pizzas criolla,comprar_pizza,es
+"ok gracias, be",despedida,es
+quisiera ordenar dos pzzas criolla,comprar_pizza,es
+How much is a large veggie pizza?,comprar_pizza,en
+me manda una pizza napolitana a ciudad de mexico?,comprar_pizza,es
+"perfecto, nos vemos gracias",despedida,es
+"me antojo una ed peperoni, tienen promo?",comprar_pizza,es
+necesito una cita medica de odontologia para esta semanna,agendar_cita_medica,es
+"Tengo fiebre alta desde ayer, q hago? 🙌",consultar_medicina,es
+Hay disponibilidad en un resort para el viernes? gracias,reservar_hotel,es
+quanto custa uma consulta de carddiologia? urgente,agendar_cita_medica,pt
+im very upset the service was terrible 👍,reclamo,en
+how do i block my credit cardd?,consulta_banca,en
+cuanto cuesta una consulta de dermatologia? 😀,agendar_cita_medica,es
+Meu pedido nunca chegou e quero reclamar 😊,reclamo,pt
+Do u have veggie pizza? I want to order one,comprar_pizza,en
+"la television que compre no funciona, exijo solucion",reclamo,es
+Me manda una pizza napolitana a Cusco? ❤️,comprar_pizza,es
+mi cuenta no funciona,soporte_tecnico,es
+"gracias, hasta luego",despedida,es
+necesito una cita medica de traumatologia pa esta semana,agendar_cita_medica,es
+"Quiero pooner un reclamo, la television llego danado 🏨",reclamo,es
+cual es el saldo de mi cuenta?,consulta_banca,es
+quisiera ordenar dos pizzzas hawaiana,comprar_pizza,es
+when does my the headphones order arrive?,seguimiento_pedido,en
+i want to track my order number 4821,seguimiento_pedido,en
+I forgot my password and cant reset it please 😀,soporte_tecnico,en
+"saludos, buenos dias a todos 👍",saludo,es
+"Thanks, see you later 🏨",despedida,en
+"pizza criolla para llevar, cuanto seria?",comprar_pizza,es
+cuanto cuesta un pasaje a boogta con sky? por favor,comprar_vuelo,es
+voces entregam pizza vegetariana em lisboa? por favor,comprar_pizza,pt
+how much is a large pepperoni pizza?,comprar_pizza,en
+Quiero una consulta de odontologia para mi hijo hola,consultar_medicina,es
+me manda una pizza americana a quito? urgente,comprar_pizza,es
+"Mi pedido dice en camino hace 3 disa, que paso? urgente",seguimiento_pedido,es
+que documentos piden paar constituir una eirl?,constituir_empresa,es
+quiero comprar un vuelo a quito,comprar_vuelo,es
+Quisiera hacer una reserva en un hotel boutique por favor,reservar_hotel,es
+"o fone que comprei nao funciona, exijo solucao por favor",reclamo,pt
+"Nos vemos, cuidate porfa 👍",despedida,es
+"quero fazer uma reclamacao, os tenis chegou danificado 🏨",reclamo,pt
+i would like two four cheese pizzas,comprar_pizza,en
+"Buenas, un gusto saludarlos ❤️",saludo,es
+cuanto cuesta un pasaje a ciudad de mexico con sky?,comprar_vuelo,es
+deseo comprar dos boletos a quito,comprar_vuelo,es
+Cuanto demora registrar una SAC?,constituir_empresa,es
+preciso de ajuda pa formalizar uma startup,constituir_empresa,pt
+how much is a double room in cancun?,reservar_hotel,en
+"gracias, hasta la proxima por favor",despedida,es
+mi cuenta esta bloqueada gracias,consulta_banca,es
+"Pesimo servicio, quiero hablar con un supervisor gracias",reclamo,es
+La app sse cierra sola cada vez que la abro,soporte_tecnico,es
+I cant log into my account please,consulta_banca,en
+"pesimo servicio, quiero hablar con un supervisor 🙌",reclamo,es
+Quisiera ordenar dos pizzas americana,comprar_pizza,es
+o app fecha sozinho quando abro,soporte_tecnico,pt
+deseo comprar dos boletos a trujillo,comprar_vuelo,es
+Cuando llega mi pedido de el teclado?,seguimiento_pedido,es
+no puedo iniciar sesion en la aplicacion 🙌,soporte_tecnico,es
+"Eso seria todo, gracias y chau urgente",despedida,es
+"Gracias x la ayuda, adios porfa",despedida,es
+"mi paquete aun no llega, donde esta? ❤️",seguimiento_pedido,es
+deseo agendar control con odontologia pa el lunes porfa,agendar_cita_medica,es
+"El producto llego roto, quiero mi devolucion porfa",reclamo,es
+Necessito ayuda pa formalizar mi startup,constituir_empresa,es
+quiero consultar los movimienntos de mi cuenta ✈️,consulta_banca,es
+what is the balance of my account? please,consulta_banca,en
+"hola, como va todo? por favor ✈️",saludo,es
+"buenas tardes, como estann?",saludo,es
+Necesito ayuda pa formalizar mi startup ❤️,constituir_empresa,es
+"Hey, good evening",saludo,en
+"eso seria todo, gracias y chau",despedida,es
+Mi cuenta no funciona 👍,soporte_tecnico,es
+ya pague pero no se cuando llega mi pedido 😀,seguimiento_pedido,es
+cuanto cuesta crear una empresa de servicios?,constituir_empresa,es
+"pesimo servicio, quiero hablar con un supervisor gracias",reclamo,es
+Mi cuenta me da error,consulta_banca,es
+"Ola,, bom dia por favor 🏨",saludo,pt
+"hello, how is it going? please",saludo,en
+me pueden asesorar para constituir mi startup en lima?,constituir_empresa,es
+O que posso tomar se tenho gripe?,consultar_medicina,pt
+que dosis de aspirina debo tomar?,consultar_medicina,es
+haaganme delivery de una pizza de peperoni porfa,comprar_pizza,es
+Quero reservar um hotel 4 estrelas em Bogota,reservar_hotel,pt
+cuanto cuesta una consulta de odontologia? hola,agendar_cita_medica,es
+"consulat de ginecologia, cuanto seria?",consultar_medicina,es
+"Saludos, buenos dias a todos",saludo,es
+cuanto cuesta la pizza vegetariana familiar?,comprar_pizza,es
+necesito un hotel 4 estrellas para 3 noches en santiago,reservar_hotel,es
+"Gracias por la ayuda, adios",despedida,es
+necesito un hostal pa 3 noches en ciudad de mexico hola,reservar_hotel,es
+como bloqueo mi tarjeta de credito? urgnete,consulta_banca,es
+i need help incorporating a small business,constituir_empresa,en
+no em deja iniciar sesion en mi cuenta,soporte_tecnico,es
+Cotizame un vuelo a Piura een Copa 🍕,comprar_vuelo,es
+"Perfect, goodbye 😀",despedida,en
+Quisiera ordenar dos pizzas pepperoni,comprar_pizza,es
+me manda una pizza criolla a santiago? 🙏,comprar_pizza,es
+que dosis de loratadina debo tomar?,consultar_medicina,es
+i forgot my password and cant reset it asaap,soporte_tecnico,en
+Hello theere,saludo,en
+id like to schedule a dermatology visit in sao paulo please,agendar_cita_medica,en
+Quiero formalizar mi negocio y sacar RUC para una empresa de servicios,constituir_empresa,es
+"Consulta de oftalmologia, cuanto seria? 🙏",agendar_cita_medica,es
+necesito un vuelo ida y vuelta a santiago,comprar_vuelo,es
+"i want to file a complaint, the tv arrived damaged",reclamo,en
+Quiero formalizar mi negocio y sacar RUC para una SRL,constituir_empresa,es
+quanto custa a pizza portuguesa grande?,comprar_pizza,pt
+quantas vezes ao dia devo tomar ibuprofeno?,consultar_medicina,pt
+quiero comprar una pizza pepperoni ahora,comprar_pizza,es
+"perfecto, nos vemos",despedida,es
+Cotizame un vuelo a Arequipa en LATAM urgente,comprar_vuelo,es
+Quero consultar os movimentos da minha conta obrigado,consulta_banca,pt
+Does ibuprofen help with back pain?,consultar_medicina,en
+"Ok thank you, bye",despedida,en
+quisiera hacer una reserva en un resort ✈️,reservar_hotel,es
+"Quisiera abrir una EIRL, por donde empezo? 👍",constituir_empresa,es
+Quiero pedir una pizza cuatro quesos porfa,comprar_pizza,es
+"Tengo dolor de cabeza, que me recomiendan?",consultar_medicina,es
+Me manda una pizza cuatro quesos a Lima?,comprar_pizza,es
+"quiero poner un reclamo, la television llego danado",reclamo,es
+"Quiero poner un reclamo, la impresora llego danado",reclamo,es
+necesito el estado de mi envio hola,seguimiento_pedido,es
+"gracias x la ayuda, adios 👍",despedida,es
+"quiero un reembolso, el teclado vino defectouso 🏨",reclamo,es
+el sistema m da error al cargar la pagina por favor,soporte_tecnico,es
+"eso seria todo, gracias y hcau",despedida,es
+Tienen habitaciones disponibles en Areqipa pa el finde?,reservar_hotel,es
+Miinha conta do app nao funciona,soporte_tecnico,pt
+"Hola, como va todo?",saludo,es
+no puedo inciiar sesion en la aplicacion gracias,soporte_tecnico,es
+hola que tal porfa,saludo,es
+"the keyboard I bought doesnt work, I demand a solution",reclamo,en
+"Hola, buenos dias",saludo,es
+"Quisiera abrir mi negocio, por donde empiezo?",constituir_empresa,es
+quiero comprar una pizza napolitana ahora por favor ❤️,comprar_pizza,es
+Cotizame un vuelo a Piura en Copa,comprar_vuelo,es
+quisiera reservar una cita de cardiologia en lima 🍕,agendar_cita_medica,es
+Como registro una SAC en Cusco? 🍕,constituir_empresa,es
+"Tengo dolor de espalda desde ayer, que hago?",consultar_medicina,es
+"mi pedido dice en camino hace 3 dis, que paso?",seguimiento_pedido,es
+Minha conta nao funciona obrigado ✈️,consulta_banca,pt
+Nao consigo fazer login no aplicativo,soporte_tecnico,pt
+Can you deliver a bbq chicken pizza 2 Madrid? 😊,comprar_pizza,en
+mi cuenta esta bloqueada urgente,consulta_banca,es
+Is ti safe to take omeprazole for a dry cough?,consultar_medicina,en
+"thanks for the help, bye asap",despedida,en
+"tengo dolor de cabeza desde ayer, q hago?",consultar_medicina,es
+deseo presentar una queja formal por im pedido,reclamo,es
+quiero pedir una pizza de peperoni ✈️,comprar_pizza,es
+"Gracias, hasta luego gracias",despedida,es
+mi pedido nunca llego y quiero reclamar por favor,reclamo,es
+How much is a ticket 2 New YYork with American?,comprar_vuelo,en
+Que puedo tomar si tengo fiebre alta?,consultar_medicina,es
+que puedo tomar si tengo fibre alta?,consultar_medicina,es
+hola que tal,saludo,es
+no puedo entrar a mi cuenta,consulta_banca,es
+Ya pague pero no se cuando llega mi pedido 👍,seguimiento_pedido,es
+Quiero sabe el limite de mi tarjeta,consulta_banca,es
+"saludos, bueenos dias a todos",saludo,es
+i need a hostel for 3 nights in miami,reservar_hotel,en
+Quisiera reservar una cita de traumatologia en Medellin hola 👍,agendar_cita_medica,es
+"gracias, hasta luegoo 👍",despedida,es
+"Quisiera abrir una SRL, por donde empiezo? hola",constituir_empresa,es
+cuanto demora registrar una eirl?,constituir_empresa,es
+"El producto llego rroto, quiero mi devolucion ❤️",reclamo,es
+"quiero poner un reclamo, la television llego dañado",reclamo,es
+haganme delivery de una pizz hawaiana porfa 🍕,comprar_pizza,es
+"gracias, hasta la proxima porfa 👍",despedida,es
+Mi cuenta de la app no funciona porfa 🙌,soporte_tecnico,es
+i needd the status of my shipment,seguimiento_pedido,en
+nao consigo transferir dinheiro da minha conta,consulta_banca,pt
+Ya pague pero no se cuanod llega mi pedido,seguimiento_pedido,es
+deseo reservar un hotel boutique con desayuno incluido,reservar_hotel,es
+Deseo inscribir una EIRL en registros publicos 🏨,constituir_empresa,es
+"listo, hastaa pronto",despedida,es
+Necesito un hostal para 3 noches en Quito 🙌,reservar_hotel,es
+"i want to file a complaint, the laptop arrived damaged hi",reclamo,en
+"tengo dolor de garganta desde ayer, que hago?",consultar_medicina,es
+Cuanto falta para que lleggue mi compra?,seguimiento_pedido,es
+Do you have rooms available in Sao Paulo this weekend?,reservar_hotel,en
+"the product arrived broken, i want a refund thanks",reclamo,en
+me reservan una habitacion en ciudad de mexico del 10 al 15? ✈️,reservar_hotel,es
+Cuanto falta para q llegue mi compra?,seguimiento_pedido,es
+ya pague pero no se cuando llega mi pedido 🙏,seguimiento_pedido,es
+haganme delivery de una pizza criolla porfa,comprar_pizza,es
+"El producto llego roto, quiero mi devolucion gracias",reclamo,es
+Deseo agendar control con odontologia pa el lunes,agendar_cita_medica,es
+"Quisiera abrir una SAC, por donde empiezo?",constituir_empresa,es
+"eso seria todo, gracisa y chau hola",despedida,es
+Gostaria de fazer uma reserva em um hotel 4 estrelas,reservar_hotel,pt
+the system gives me an error loading the page ❤️,soporte_tecnico,en
+where is my order? asap ❤️,seguimiento_pedido,en
+Me consigues un pasaje a Quito para manana?,comprar_vuelo,es
+la app se cierra sola cada vez que la abro 🍕,soporte_tecnico,es
+como bloqueo mi tarjeta de credito? 😀,consulta_banca,es
+Cuanto demora registrar una empresa de servicios?,constituir_empresa,es
+"Quiero un rembolso, la laptop vino defectuoso",reclamo,es
+Me consigues un psaaje a Lima para manana? 🙌,comprar_vuelo,es
+i want to buy a light to new york ❤️,comprar_vuelo,en
+tienen habitaciones disponibles en ciudad de mexico para el finde? ❤️,reservar_hotel,es
+"pesimo servicio, quiero hablar con un sueprvisor",reclamo,es
+me cobraron de mas y quiero un reclamo 🙌,reclamo,es
+Quiero una consulta de pediatria para mi hijo,consultar_medicina,es
+"listo, hasta pronto",despedida,es
+i need help incorporating a startup,constituir_empresa,en
+how much does it cost to create an llc?,constituir_empresa,en
+mi cuenta etsa bloqueada hola,soporte_tecnico,es
+Como bolqueio meu cartao de credito?,consulta_banca,pt
+Deseo agendar control con dermatologia para el lunes 🙌,agendar_cita_medica,es
+"Estoy muy molesto, el servicio fue pesimo",reclamo,es
+"listo, hasta pronto hola",despedida,es
+"Alright, see you soon hi",despedida,en
+necesito una cita medica de ginecologia pa esta semana,agendar_cita_medica,es
+do you have availability for a gynecology appointment? hi ✈️,agendar_cita_medica,en
+cuando llega mi pedido de la television? gracias,seguimiento_pedido,es
+"la impresora q compre no funciona, exjio solucion",reclamo,es
+The system gives me an error loadiing the page,soporte_tecnico,en
+deseo presentar una queja formal por mi pedido 🍕,reclamo,es
+Preciso de uma consulta de ortopedia esta semana 👍,agendar_cita_medica,pt
+M cuenta de la app no funciona,soporte_tecnico,es
+Hey hola,saludo,es
+"quiero un reembolso, el teclado vino defectoso 🍕",reclamo,es
+"ok gracias, bye",despedida,es
+i want to submit a formal ocmplaint about my order,reclamo,en
+que medicina puedo tomar para dolor de estomaog?,consultar_medicina,es
+cuanto cuesta una habitacion doble en quito?,reservar_hotel,es
+Cuanto cuesta una habitacion doble en Bogota?,reservar_hotel,es
+es seguro tomar omeprazol para gripe?,consultar_medicina,es
+hay disponibilidad en un hotel cerca del ceentro pa el viernes? 🏨,reservar_hotel,es
+id like to book a flight with latam to bogota,comprar_vuelo,en
+"Perfeecto, nos vemos urgente",despedida,es
+"boa tarde, como vao? por favor",saludo,pt
+are there flights to panama city on saturday?,comprar_vuelo,en
+Is it safe to take ibuprofen for back pain?,consultar_medicina,en
+"hey, good evening",saludo,en
+"saludos, buenos dias a todos por favor",saludo,es
+Mi pedido nunca llego y quiero reclamar 😀,reclamo,es
+"Perfecto, nos vemos hola",despedida,es
+Heey hola por favor,saludo,es
+Im looking for cheap flights to Miami,comprar_vuelo,en
+Preciso do status od meu envio,seguimiento_pedido,pt
+"Quisiera abrir una SRL, por donde empiezo?",constituir_empresa,es
+"os tenis que comprei nao funciona, exijo solucao 🙌",reclamo,pt
+"quiero poner un reclamo, la television llego danado graacias",reclamo,es
+el loratadina sirve para gripe?,consultar_medicina,es
+"ok thank you, bye",despedida,en
+me cobraron de mas y quiero un reclamo porfa,reclamo,es
+"quiero un reembolso, la impresora vino defectuoso urgente",reclamo,es
+i need a hostel for 3 nights in new york please,reservar_hotel,en
+Cuanto cuesta la pizza de peperoni familiar?,comprar_pizza,es
+no me llega el codigo de verificacion,soporte_tecnico,es
+My account is not working asap,soporte_tecnico,en
+"o fone que comprrei nao funciona, exijo solucao",reclamo,pt
+"Tengo nauseas desde ayer, que hago? hola",consultar_medicina,es
+Cuantas veces al dia debo tomar omeprazol?,consultar_medicina,es
+Necesito una cita medica de ginecologia para esta semana 🙌,agendar_cita_medica,es
+"muy amable, que tenga buen dia",despedida,es
+"My package hasnt arrived yet, where is it?",seguimiento_pedido,en
+"Mi pedido dice n camino hace 3 dias, q paso? porfa",seguimiento_pedido,es
+tienen habitaciones disponibles en trujillo para el finde?,reservar_hotel,es
+Gostaria de uma pizza margherita,comprar_pizza,pt
+cuanto cuesta una consulta de odontologia? gracias,agendar_cita_medica,es
+me pueden asesorar para constituir mi startup en cusco?,constituir_empresa,es
+"gracias, hasta la proxima hola",despedida,es
+Cuanto demora registrar una EIRL? urgente,constituir_empresa,es
+quiero agendar una cita con odontologia,agendar_cita_medica,es
+cuanto cuesta un pasaje a medellin con sky?,comprar_vuelo,es
+Quisiera reservar una cita de dermatologia en Santiago,agendar_cita_medica,es
+cuantas veces al dia debo tomar loratadina?,consultar_medicina,es
+busco un resort economico en santiago,reservar_hotel,es
+"i want to pay my card, how much do i owe?",consulta_banca,en
+"hola, uenos dias 🏨",saludo,es
+I need this months account statement,consulta_banca,en
+"El producto llego roto, quiero mi devolucion",reclamo,es
+ok gracias bye,despedida,es
+preciso de um voo ida e volta para rio de janeiro,comprar_vuelo,pt
+tienen pizza cuatro quesos? quiero pedir una hola,comprar_pizza,es
+no puedo iniciar sesion en la aplicacion porfa,soporte_tecnico,es
+"Mi pedido dice en camino hace 3 dias, que paso?",seguimiento_pedido,es
+how much is a dermatoloyg consultation? 😀,consultar_medicina,en
+cuanto demora registrar mi negocio? gracias,constituir_empresa,es
+quato custa uma consulta de ginecologia? por favor,consultar_medicina,pt
+me manda una pizzza hawaiana a santiago?,comprar_pizza,es
+Dond esta mi pedido?,seguimiento_pedido,es
+Qual e o saldo da minha conta?,consulta_banca,pt
+mi ccuenta no funciona,consulta_banca,es
+My account is not working,consulta_banca,en
+donde esta mi ppedido?,seguimiento_pedido,es
+"nos vemos, cuidate",despedida,es
+necesito unna consulta de traumatologia,agendar_cita_medica,es
+quiero saber el limite d mi tarjeta urgente,consulta_banca,es
+"hello, how is it going? 👍",saludo,en
+how much is a dentistry consultation?,agendar_cita_medica,en
+cuanto cuesta una habitacion doble en cusco?,reservar_hotel,es
+"mi cuenta no me deja hacer pagos, que pasa? por favor",consulta_banca,es
+Tienen pizza napolitana? quiero pedir nua,comprar_pizza,es
+"Buenas, hay alguien?",saludo,es
+quiero saber el limite de mi tarjeta 🙌,consulta_banca,es
+que documentos piden para constituir un sac?,constituir_empresa,es
+"La applicacion esta muy lenta, no carga",soporte_tecnico,es
+Ya pague pero no se cuando llega mi pedido porfa 🙌,seguimiento_pedido,es
+hay disponibilidad en un hotel cerca del centro pa el viernes?,reservar_hotel,es
+me pueden dar el tracking de mi orden?,seguimiento_pedido,es
+"Me antojo una napolitana, tienen promo?",comprar_pizza,es
+"Quisiera abrir mi startup, por donde empiezo?",constituir_empresa,es
+quanto custa uma consulta de dermatologia?,consultar_medicina,pt
+"eso seria todo, gracias y chau hola",despedida,es
+como rgeistro una empresa de servicios en lima? 👍,constituir_empresa,es
+Mi cuenta esta bloqueadaa 🙌,consulta_banca,es
+"estou muito irritado, o servico foi pessimo",reclamo,pt
+"consulta de odontologia, cuanto seria?",consultar_medicina,es
+quisiera reservar una cita de cardiologia en cusco,agendar_cita_medica,es
+Can u give me the tracking for my order?,seguimiento_pedido,en
+Tienen disponibilidad para una consulta de pediatria? ✈️,agendar_cita_medica,es
+is it safe to take aspirin forr back pain? asap,consultar_medicina,en
+I need the status of my shipment please,seguimiento_pedido,en
+where is my order? ✈️,seguimiento_pedido,en
+"i want to pay my cad, how much do i owe?",consulta_banca,en
+"Thank you, have a nice day",despedida,en
+"Quiero un reembolso, la television vino defectuoso",reclamo,es
+"listo, hasta pronto por favor",despedida,es
+I want to check my account transactions,consulta_banca,en
+Cuanto cuesta un pasaje a Quito con Copa?,comprar_vuelo,es
+Me reservan una habitacion en Santiago del 10 al 15?,reservar_hotel,es
+"Nos vemos, cuidate 😊",despedida,es
+quisiera reservar una cita de cardiologia en medellin,agendar_cita_medica,es
+quero consultar os movimentos da minha conta,consulta_banca,pt
+I owuld like two margherita pizzas,comprar_pizza,en
+como registro una srl en medellin? hola,constituir_empresa,es
+"listo, hasta prono gracias",despedida,es
+quiero consultar los movimientos dde mi cuenta,consulta_banca,es
+necesitoo el estado de cuenta de este mes,consulta_banca,es
+El ibuprofeno sirve para dolor de espalda? por favor,consultar_medicina,es
+"gracias x la ayuda, adios",despedida,es
+"Mi cuenta no me deja hacer pagos, que pasa?",consulta_banca,es
+quiero reservar un hostal en arequipa,reservar_hotel,es
+necesito un vuelo ida y vuelta a cusco,comprar_vuelo,es
+mi pedido nunca llego y quiero reclamar,reclamo,es
+donde esta mi pedido?,seguimiento_pedido,es
+"necesito ver a un especialista en cardiologia, hay citas?",agendar_cita_medica,es
+No puedo entrar a mi cuenta hola,soporte_tecnico,es
+"Hola, como va todo? ❤️",saludo,es
+I cant access my account,consulta_banca,en
+La app se cierra sola cada vez q la abro,soporte_tecnico,es
+"obrigado ppela ajuda, adeus obrigado",despedida,pt
+how do i register an llc in panama city?,constituir_empresa,en
+Quiero formalizar mi negocio y sacar RUC para una SAC,constituir_empresa,es
+Quiisera reservar un vuelo con LATAM a Medellin urgente,comprar_vuelo,es
+a que hora atienden en pedaitria? quiero sacar cita urgente,agendar_cita_medica,es
+"No puedo actualizar la app, me sale error urgente",soporte_tecnico,es
+"obrigado, at logo",despedida,pt
+quiero formalizar mi negocio y sacar ruc para mi negocio,constituir_empresa,es
+cuanto cuesta crear una srl?,constituir_empresa,es
+me pueden asesorar pa constituir mi startup en trujillo? 🙌,constituir_empresa,es
+mi cuenta de la app no funciona urgente,soporte_tecnico,es
+o sistema da erro ao carregar a pagina por favor,soporte_tecnico,pt
+"me duele mucho, tengo dolor de espalda, que medicamento tomo?",consultar_medicina,es
+"Quiero un reembolso, el teclado vino defectuoso 😀",reclamo,es
+me cobraron de mas y quiero un reclamo 👍,reclamo,es
+quiero reservar un hostall en santiago,reservar_hotel,es
+cuanto cuesta un pasaje  piura con avianca?,comprar_vuelo,es
+"Hello, how is it going?",saludo,en
+hay vuelos a cusco praa el sabado? por favor,comprar_vuelo,es
+is there availability at a boutique hotel 4 fridayy?,reservar_hotel,en
+"estoy muy molesto, el servicio fue pesimo hola",reclamo,es
+nao recbeo o codigo de verificacao,soporte_tecnico,pt
+El boton de pago no responde en la web,soporte_tecnico,es
+what is the balance of my account? thanks,consulta_banca,en
+precios de um voo ida e volta para lima ✈️,comprar_vuelo,pt
+I need a round trip flight to Sao Paulo,comprar_vuelo,en
+Haganme delivery de una pizza hawaiana porfa,comprar_pizza,es
+Que puedo tomar si tengo dolor de espalda?,consultar_medicina,es
+"Nos vems, cuidate gracias",despedida,es
+i was overcharged and i want to complain 🏨,reclamo,en
+que documentos piden para constituir mi negocio?,constituir_empresa,es
+Tienen pizza napolitana? quiero pedirr una 🏨,comprar_pizza,es
+Mi pedido nunca llego y quiero reclamar gracias,reclamo,es
+el boton de pago no responde en la web 🙏,soporte_tecnico,es
+cuanto cuesta un pasaje a arequipa ocn jetsmart?,comprar_vuelo,es
+"hola, como va todo? hola",saludo,es
+"the tv I bought doesnt work, I demand a solution 🍕",reclamo,en
+does aspirin help with a sore throat? please 🙌,consultar_medicina,en
+quiero reservar un hotel 4 estrellas en piura por favor,reservar_hotel,es
+I was overcharged and I want to complain,reclamo,en
+"Boa tarde, cmoo vao?",saludo,pt
+"i want to set up a small business, what do i need? thanks",constituir_empresa,en
+Quiero una consulta de cardiologia para mi hijo,agendar_cita_medica,es
+my account is blocked,soporte_tecnico,en
+mi cuenta me da error,soporte_tecnico,es
+"os tenis que comprei nao funciona, exijo solucao",reclamo,pt
+hay disponibilidad en un resort para el viernes? urgente,reservar_hotel,es
+Quiero rastrear mi orden numero 4821 🙏,seguimiento_pedido,es
+"buenas tardes, como esttan? hola",saludo,es
+me pueden dar hora con el doctor de oftalmologia?,agendar_cita_medica,es
+can you hhelp me start an llc?,constituir_empresa,en
+"thank you, have a nice day",despedida,en
+Me consigues un pasaje a Cusco pa manana?,comprar_vuelo,es
+"Mi paquete aun no llega, donde esta? hola",seguimiento_pedido,es
+Quiero una consulta de cardiologia para mi hijo,consultar_medicina,es
+how many times a day should i take aspirin?,consultar_medicina,en
+"gracias, hasta lueo",despedida,es
+No puedo etnrar a mi cuenta,soporte_tecnico,es
+Ya pague pero no se cuando llega mi ppedido,seguimiento_pedido,es
+How much is a large four cheese pizza?,comprar_pizza,en
+deeso agendar control con cardiologia para el lunes 👍,agendar_cita_medica,es
+"el producto llego roto, quiero mi devolucion gracias",reclamo,es
+tienen disponibilidad pa nua consulta de cardiologia?,agendar_cita_medica,es
+deseo comprar dos boletos a iura,comprar_vuelo,es
+"Thanks, see you later",despedida,en
+Tienen habitaciones disponibles en Santiago para el finde?,reservar_hotel,es
+Quiero saber el limite de mi tarjeta,consulta_banca,es
+"Pesimo servicio, quiero hablar con un supervisor por favor",reclamo,es
+"mi pedido dice en camino hace 3 dias, que paso?",seguimiento_pedido,es
+"Quiero un reembolso, el celular vino defectuoso",reclamo,es
+mi cuenta de la app no funciona 😀,soporte_tecnico,es
+"Hola, buenos dias urgente",saludo,es
+"Hola, buenas noches",saludo,es
+Cuanto cuesta crear mi startup?,constituir_empresa,es
+Cuando lleag mi pedido de la television?,seguimiento_pedido,es
+cuanto cuesta crear una srl? urgente,constituir_empresa,es
+cuanto cuesta crear mi negocio? gracias 😊,constituir_empresa,es
+Gostaria de reservar um voo com Gol para Lima obrigado,comprar_vuelo,pt
+meu pedido nunca chegou e quero reclamar,reclamo,pt
+quiero comprar un vuelo a santiago,comprar_vuelo,es
+"quiero constituir mi startup, que tramites necesito?",constituir_empresa,es
+"quiero poner un reclamo, el celular llego dañado 😀",reclamo,es
+"I wold like to open a startup, where do I begin?",constituir_empresa,en
+como registro mi startup en cusco?,constituir_empresa,es
+Busco vuelos baratos a Arequipa,comprar_vuelo,es
+el sistema me da error al cargar la pagina hola 🍕,soporte_tecnico,es
+qisiera ordenar dos pizzas criolla ❤️,comprar_pizza,es
+quiero agendar una cita con dermatologia,agendar_cita_medica,es
+Quanto custa uma consulta de cardioologia?,agendar_cita_medica,pt
+necesito una consulta de oftalmologia,consultar_medicina,es
+hay vuelos a trujillo para el sabado? 😊,comprar_vuelo,es
+me manda una pizza de peperoni a medellin? hola,comprar_pizza,es
+cuanto demora registrar una srl? hola,constituir_empresa,es
+quero comprar uma passagem para bogota,comprar_vuelo,pt
+Mi cuenta me da error,soporte_tecnico,es
+quero rastrear meu pedido numero 4821,seguimiento_pedido,pt
+que dosis de naproxeno deb tomar?,consultar_medicina,es
+Tienen habitaciones disponibles en Bogota para el finde? hola,reservar_hotel,es
+Mi cuenta de la app no funciona 😊,soporte_tecnico,es
+Cotizame un vuelo a Medellin en Copa,comprar_vuelo,es
+cuanto cuesta crear una eirl? por favor,constituir_empresa,es
+I cant transfer money from my account 😀,consulta_banca,en
+Deseo inscribir una EIRL en registros publicos urgente,constituir_empresa,es
+boa noite,saludo,pt
+"obrigado, ate logo",despedida,pt
+Busco un hotel cerca del centro economico en Piura gracias,reservar_hotel,es
+me reservan una habitacion en quito del 10 al 15?,reservar_hotel,es
+What documents are required 2 register an LLC?,constituir_empresa,en
+olvide mi contrasnea y no puedo recuperarla,soporte_tecnico,es
+can you help me start a company?,constituir_empresa,en
+necesito el estado de mi envio urgente,seguimiento_pedido,es
+Dondde esta mi pedido? gracias,seguimiento_pedido,es
+No puedo transferir dinero desde mi cuenta,consulta_banca,es
+Can I get a pepperoni pizza with extra cheese?,comprar_pizza,en
+I want to schedule an appointment with dermatology,agendar_cita_medica,en
+"tengo dolor de espalda, que me recomiendan? ❤️",consultar_medicina,es
+can you deliver a pepperoni pizza to cancun?,comprar_pizza,en
+when does my the laptop order arrive? hi 🍕,seguimiento_pedido,en
+"gracais por la ayuda, adios 🙌",despedida,es
+"gracias por la ayuda, adios urgente 🏨",despedida,es
+deseo comprar dos boletos a piura 🍕,comprar_vuelo,es
+necesito le estado de cuenta de este mes 😀,consulta_banca,es
+Cuanto cuesta la pizza cuatro quesos familiar?,comprar_pizza,es
+necesito un hostal para 3 noches en arequipa 👍,reservar_hotel,es
+quiero pedir una pizza vegetariana por favor,comprar_pizza,es
+mi pedido nunca llego y quiero reclamar 🏨,reclamo,es
+cuanto cuesta un pasaje a santiago con copa?,comprar_vuelo,es
+Necesito el estado de cuenta de este mes,consulta_banca,es
+do you have availability for a gynecology appointment?,agendar_cita_medica,en
+Hola que tal ✈️,saludo,es
+Como registro una SAC en Lima? porfa,constituir_empresa,es
+preciso do status do meu envio,seguimiento_pedido,pt
+"hola, buenas noches 😀",saludo,es
+id like a pepperoni pizza for pickup,comprar_pizza,en
+Quisiera hacer una reserva en un hotel 4 estrellas gracias,reservar_hotel,es
+what medicine can i takke for the flu?,consultar_medicina,en
+Me consigues un pasaje a Bogota pa manana? 😀,comprar_vuelo,es
+"quiero un reembolso, el teclado vino defectuoso por favor",reclamo,es
+i cant access my account thanks,consulta_banca,en
+no puedo acceder a mi cuenta por favor,soporte_tecnico,es
+Necesito una cita medica de cardiologia para esta semana,agendar_cita_medica,es
+Me pueden asessorar pa constituir una SAC en Arequipa? ✈️,constituir_empresa,es
+i need a hostel for 3 nights in panama city 🍕,reservar_hotel,en
+"Buenas, unn gusto saludarlos 🍕",saludo,es
+no puedo iniciar sesion en la aplicacion,soporte_tecnico,es
+Are there flights to New York on saturday? 🙌,comprar_vuelo,en
+how much is a ticket to panama city with copa?,comprar_vuelo,en
+hay velos a piura para el sabado? 😊,comprar_vuelo,es
+necesito el estado de mi envio,seguimiento_pedido,es
+A que hora atienden en ginnecologia? quiero sacar cita,agendar_cita_medica,es
+mi cuenta me da error urgente,consulta_banca,es
+hey hola 🏨,saludo,es
+Quiero comprar un vuelo a Csuco,comprar_vuelo,es
+Deseo una pizza vegetariana grande con extra queso,comprar_pizza,es
+no me llega el cdigo de verificacion 🍕,soporte_tecnico,es
+I need a pediatrics consultation,agendar_cita_medica,en
+"hola,, buenos dias",saludo,es
+"o celular que comprei nao funciona, exijo solucao obrigado",reclamo,pt
+"La aplicacion esta muyy lenta, no carga",soporte_tecnico,es
+el sistema me da error al cargar la pagina,soporte_tecnico,es
+Cuando llega mi pedido dee el celular?,seguimiento_pedido,es
+No puedo transferir dinero desde mi cuenta urgente,consulta_banca,es
+i need a cardiology appointment this week,agendar_cita_medica,en
+La app se cierra sola cada vez que la abro,soporte_tecnico,es
+"Quiero un reembolso, las zapatillas vino defectuoso por favor",reclamo,es
+"Nos vemos, cuidate",despedida,es
+"tengo dolor de garganta, q me recomiendan?",consultar_medicina,es
+"Mi cuenta no me deja hacer pagos, que pasa? por favor",consulta_banca,es
+quiero saber el limite de mi tarjeta 🍕,consulta_banca,es
+no me llega el codigo de verificacion 👍,soporte_tecnico,es
+quiero consultar los movimientos de mi cuenta 🏨,consulta_banca,es
+nao recebo o codigo de verificacao obrigado,soporte_tecnico,pt
+hay vuelos a piura para el sabado?,comprar_vuelo,es
+que documentos piden para constituir una empresa de servicios?,constituir_empresa,es
+No puedo entrar a mi cuenta por favor,consulta_banca,es
+I need the status of my shipment,seguimiento_pedido,en
+necesito una consulta de pediatria por favor,consultar_medicina,es
+i want to book a buotique hotel in miami 🍕,reservar_hotel,en
+Cuanto tengo disponible en mi cuenta de ahorros? 😀,consulta_banca,es
+Do you have roosm available in Cancun this weekend?,reservar_hotel,en
+how much is a large margherit pizza?,comprar_pizza,en
+"no puedo actualizar la app, me sale error",soporte_tecnico,es
+"gracias, hasta la proxima",despedida,es
+Cual es el saldo de mi cuenta?,consulta_banca,es
+"Me antojo una pepperoni, tienen promo?",comprar_pizza,es
+onde esta o meu pedido?,seguimiento_pedido,pt
+"quiero constituir mi startup, que tramites necesito? gracias",constituir_empresa,es
+"hi, is anyone there? 🙏",saludo,en
+"Ok gracias, bye",despedida,es
+que dosis de amoxicilina debo tomar?,consultar_medicina,es
+my account is blocked 😊,soporte_tecnico,en
+Minha conta nao funciona,soporte_tecnico,pt
+necesito una consulta de odontologia urgente,agendar_cita_medica,es
+El sistema me da error al cargar la pagina ❤️,soporte_tecnico,es
+i need the status of my shipment 😊,seguimiento_pedido,en
+"i want to file a complaint, the phone arrived damaged",reclamo,en
+hay vuelos a piura pa el sabao? urgente,comprar_vuelo,es
+que dosis de loratadina debo tomar? gracias,consultar_medicina,es
+no me deja iniciar sesion en mi cuetna,consulta_banca,es
+"tengo nauseas desde ayer, que hago? hola",consultar_medicina,es
+i cant log into my account please,consulta_banca,en
+cuanto tengo dipsonible en mi cuenta de ahorros?,consulta_banca,es
+"hola, buenos dias 🙌",saludo,es
+Quero reservar um resort em Bogota,reservar_hotel,pt
+cuanto cuesta la pizza pepperoni familiar?,comprar_pizza,es
+How much is a double room in Bogota? asap,reservar_hotel,en
+necesito una consulta de dermatologia ❤️,consultar_medicina,es
+"thanks, ese you later",despedida,en
+"pizza napolitana para llevar, cuanto seria?",comprar_pizza,es
+Tienen pizza americana? quierro pedir una ❤️,comprar_pizza,es
+mi cuenta esta bloqueada urgente,soporte_tecnico,es
+minha conta esta bloqueada por favor,consulta_banca,pt
+quiero una consulta de oftalmologia para mi hijo,consultar_medicina,es
+"Consulta de cardiologia, cuanto seria? 🍕",consultar_medicina,es
+Quiero una consulta de ginecologia pa mi hijo,consultar_medicina,es
+"No puedo actualizar la app, me sale error",soporte_tecnico,es
+cuanto falta para q llegue mi compra?,seguimiento_pedido,es
+"Obrigado pela ajuda, adeus 😊",despedida,pt
+No me deja iniciar sesion en mi cuenta gracias,consulta_banca,es
+cuanto cuesta una consulta de oftalmologia? por favor,agendar_cita_medica,es
+necesito un resort para 3 noches en medellin,reservar_hotel,es
+"Ok muito obrigado, tchau",despedida,pt
+No me deja iniciar sesion en mi cuenta,soporte_tecnico,es
+"me duele mucho, tengo tos seca, q medicamento tomo?",consultar_medicina,es
+ya pague pero no se cuando llega mi pedido,seguimiento_pedido,es
+Hola que tal,saludo,es
+How do I block my credit card? asap,consulta_banca,en
+"eso seria todo, gracia y chau",despedida,es
+que medicina puedo tomar pa dolor de cabeza? gracias 🙏,consultar_medicina,es
+cuanto falta para que llegue mi compra?,seguimiento_pedido,es
+que remedio posso tomar para febre alta?,consultar_medicina,pt
+necesito ayuda para formaizar mi negocio urgente,constituir_empresa,es
+how much is a large bbq chicken pizza?,comprar_pizza,en
+el boton de pago no reesponde en la web gracias,soporte_tecnico,es
+cuanto cuesta una consullta de odontologia?,consultar_medicina,es
+ncesito una consulta de ginecologia hola,agendar_cita_medica,es
+Olvide mi contrasena y no puedo recuperarla,soporte_tecnico,es
+"pseimo servicio, quiero hablar con un supervisor",reclamo,es
+Cuanto cuesta una habitacion doble en Lima?,reservar_hotel,es
+"gracias, hasta luego por favor",despedida,es
+quero comprar uma passagem para lima urgente,comprar_vuelo,pt
+i want to book a resort in bogota,reservar_hotel,en
+nao recebo o codigo de verificacao 😊,soporte_tecnico,pt
+"i have the flu, what do you recomend? thanks",consultar_medicina,en
+Me manda una pizza de peperoni a Lima? gracias 🏨,comprar_pizza,es
+"gracias, hasta la proxima porfa 🏨",despedida,es
+quisiera ordenar dos pizzas pepperoni,comprar_pizza,es
+"Perfecto, nos vemos",despedida,es
+No puedo entrar a mi cuenta porfa,consulta_banca,es
+i want 2 track my order number 4821,seguimiento_pedido,en
+"estoy muy molesto, el servicio fue pesimo",reclamo,es
+Deseo comprar dos boletos a Santiago,comprar_vuelo,es
+gostaria de agendar uma consulta de ginecologia em brasilia,agendar_cita_medica,pt
+Que documentos piden pa constituir una EIRL?,constituir_empresa,es
+Gostaria de fazer uma reseerva em um resort,reservar_hotel,pt
+"Im very upset, the service was terrible",reclamo,en
+Cuanto cuesta una habitacion doble en Ciudad de Mexico?,reservar_hotel,es
+no puedo acceder a mi cuenta,consulta_banca,es
+Me pueden dar el tracking de mi orden? 🍕,seguimiento_pedido,es
+Preciso do status do meu envio urgente,seguimiento_pedido,pt
+"consulta de oftalmologia, cuanto seria?",agendar_cita_medica,es
+"gracias por la ayuda, adios 🙏",despedida,es
+cotizame un vuelo a medellin en latm,comprar_vuelo,es
+no me deja iniciar sesion en mi cuenta,soporte_tecnico,es
+Necesito una consulta de oftalmologia,consultar_medicina,es
+deseo una pizza pepperoni grande con extra queso urgente 👍,comprar_pizza,es
+cuando lega mi pedido de el teclado? 👍,seguimiento_pedido,es
+"ok muchas gracias, chau urgente",despedida,es
+M manda una pizza vegetariana a Cusco?,comprar_pizza,es
+cuando llega mi pedido de la impresora?,seguimiento_pedido,es
+cotizame un vuelo a cusco en jetsmart gracias 😀,comprar_vuelo,es
+"Helllo, how is it going? thanks",saludo,en
+"la aplicacion esta muy lenta, no carga",soporte_tecnico,es
+necesito el estado de mi envio urgente ✈️,seguimiento_pedido,es
+Como registro una SRL en Santiago?,constituir_empresa,es
+can you deliver a veggie pizza to bogota?,comprar_pizza,en
+"el audifono que compre no funciona, exijo soolucion",reclamo,es
+"Perfecto, nos vemos 😊",despedida,es
+No me llega el codigo de verificacion,soporte_tecnico,es
+me pueden asesorar para constituir mi strtup en arequipa?,constituir_empresa,es
+Gostaria de uma pizza vegetariana,comprar_pizza,pt
+"quiero un reemoblso, el audifono vino defectuoso",reclamo,es
+"necesito ver a un especialista en pediatria, hay citas?",agendar_cita_medica,es
+Cuantas veces al dia debo tomar paracetamol? 🙌,consultar_medicina,es
+me pueden dar hora con el doctor de pediatria? 😀,agendar_cita_medica,es
+quanto custa um voo para sao paulo com gol?,comprar_vuelo,pt
+hola buenos dias ✈️,saludo,es
+"buenas, un gusto saludarlos ❤️",saludo,es
+hey hola urgente,saludo,es
+"the laptop i bought doesnt work, i demand a solution",reclamo,en
+Me consigues un pasaje a Arequipa para manana?,comprar_vuelo,es
+no puedo entrar a mi cuenta porfa,consulta_banca,es
+mi pedido nunca llego y quieor reclamar gracias 👍,reclamo,es
+"hi, is anyone there?",saludo,en
+"good afternoon, how are you? thanks ✈️",saludo,en
+quisiera reservar un vuelo con latam a piura,comprar_vuelo,es
+Que dosis de amoxicilina debo tomar? gracias,consultar_medicina,es
+quiero consultar los movimientos de mi cuenta gracias,consulta_banca,es
+no puedo acceder a mi cuenta,soporte_tecnico,es
+"buenas, un gusto saludarlos 😊",saludo,es
+quiero una consulta de pediatria para mi hijo,consultar_medicina,es
+"i want to set up an llc, what do i need? 🏨",constituir_empresa,en
+deseo una pizza vegetariana grande con extra queso 🙌,comprar_pizza,es
+no puedo transferir dinero desde mi cuenta hola,consulta_banca,es
+i need a round trip flight to new york,comprar_vuelo,en
+me consigues un pasaje a cusco para mnaana?,comprar_vuelo,es
+I want to submit a formal complaint about my order,reclamo,en
+Busco un hotel cerca del centro economico en Ciudad de Mexico,reservar_hotel,es
+cuanto cuesta la pizza napolitana familiar? gracias,comprar_pizza,es
+What can I take if I have a stomach ache? thanks,consultar_medicina,en
+Mi cuenta me da error gracias,soporte_tecnico,es
+"mi pedido dice en camino hace 3 dias, qque paso?",seguimiento_pedido,es
+"necesito ver a un especialista en oftalmologia, hay citas?",agendar_cita_medica,es
+quiero saber el limite de mi tarjeta,consulta_banca,es
+cuanto cuesta una consulta de pediatria? urgente,agendar_cita_medica,es
+Necesito un hotel cerca del centro para 3 noches en Bogota ❤️,reservar_hotel,es
+bsco un resort economico en lima gracias,reservar_hotel,es
+Cuanto cuesta un pasaje a Trujillo con JetSmart? 🙏,comprar_vuelo,es
+Quieo reservar un hostal en Bogota,reservar_hotel,es
+Deseo comprar dos boletos a Quito,comprar_vuelo,es
+me pueden dar hora con el doctor de cardiologia?,agendar_cita_medica,es
+Me manda una pizza vegetariana a Quito? 🙏,comprar_pizza,es
+cuanto tengo disponible en mi cuenta de ahorros? por favor,consulta_banca,es
+que dosis de ibuprofen debo tomar?,consultar_medicina,es
+"Gracias, hasta luego",despedida,es
+Ya pague pero no se cuando llega mi pedido,seguimiento_pedido,es
+Quiero comprar un vuelo a Lima,comprar_vuelo,es
+a que hora atienden en oftalmologia? quiero sacar cita por favor,agendar_cita_medica,es
+como registro mi startup en bogota?,constituir_empresa,es
+"Hola, como va todo? 😀",saludo,es
+preciso de uma consulta de ginecologia esta semana,agendar_cita_medica,pt
+Deseo comprar dos boletos a Arequipa,comprar_vuelo,es
+tienen habitaciones disponibles en trujillo pa el finde?,reservar_hotel,es
+can i get a bbq chicken pizza with extra cheese? lpease 🙌,comprar_pizza,en
+quisiera reservar un vuelo con jetsmart a quito,comprar_vuelo,es
+gostaria de uma pizza quatro queijos,comprar_pizza,pt
+"Buenas, hay alguuien?",saludo,es
+hola uqe tal,saludo,es
+Como registro una EIRL en Lima? 👍,constituir_empresa,es
+Mi pedido nunca llego y quiero reclamar,reclamo,es
+gostaria de fazer uma reserva em um hotel 4 estrelas,reservar_hotel,pt
+no puedo transfreir dinero desde mi cuenta,consulta_banca,es
+necesito ayuda ppa formalizar una empresa de servicios,constituir_empresa,es
+"Thanks, see u later",despedida,en
+es seguro tomar paracetamol para tos seca?,consultar_medicina,es
+quiero formalizar mi negocio y sacar ruc para mi startup,constituir_empresa,es
+"que tal, buen dia 👍",saludo,es
+Me manda una pizza de peperoni a Piura?,comprar_pizza,es
+can you deliver a pepperoni pizza to madrid?,comprar_pizza,en
+When does my the tv order arrive?,seguimiento_pedido,en
+can i get a hawaiian pizza with extra cheese? asap,comprar_pizza,en
+how much is a gynecology consultation? 🙏,consultar_medicina,en
+como solicito un aumento de linea de redito?,consulta_banca,es
+How do I block my credit card?,consulta_banca,en
+Quiero una consulta de oftalmologia para mi hijo,agendar_cita_medica,es
+Cuanto cuesta un pasaje a Bogota con JetSmart?,comprar_vuelo,es
+"hola, buenoss dias",saludo,es
+"obrigado pela ajuda, adeus",despedida,pt
+i forgot my password and cant reset it,soporte_tecnico,en
+"Ok gracias, bye por favor",despedida,es
+cuantas veces al dia debo tomar omeprazol? porfa,consultar_medicina,es
+quiero agendar una cita con dermatologia 👍,agendar_cita_medica,es
+necesito una consulta de ginecologia,agendar_cita_medica,es
+what documents are required to register a company?,constituir_empresa,en
+"Me antojo una americana, tienen promo?",comprar_pizza,es
+Procuro voos baratos para Rio de Janeiro 🙏,comprar_vuelo,pt
+what medicine can i take for a headache?,consultar_medicina,en
+Mi cuenta de la app no funciona,soporte_tecnico,es
+Quero commprar uma passagem para Sao Paulo,comprar_vuelo,pt
+busco vueelos baratos a lima,comprar_vuelo,es
+"quiero un reembolso, el audifono vino defectuoso",reclamo,es
+"Nos vemos, cuidate gracias",despedida,es
+"Eo seria todo, gracias y chau 🍕",despedida,es
+como registro uma startup em boogta?,constituir_empresa,pt
+how do i register an llc in santiago?,constituir_empresa,en
+que medicina puedo tomar para dolor de espalda?,consultar_medicina,es
+necesiito el estado de mi envio,seguimiento_pedido,es
+quiero consultar los movimientos de mi cuenta hola,consulta_banca,es
+Cuanto falta para que llegue mi comppra? ✈️,seguimiento_pedido,es
+Quero pedir uma pizza vegetariana,comprar_pizza,pt
+Mi cuenta esta bloqueada porfa ❤️,consulta_banca,es
+Necesito el estado de cuenta dde este mes gracias,consulta_banca,es
+"Perfecto, nos vemos urgente 👍",despedida,es
+Mi cuenta esta bloqueada,consulta_banca,es
+"Tenho dor de garganta, o que recomenda?",consultar_medicina,pt
+deseo agendar control con ginecologia para el lunes,agendar_cita_medica,es
+"el producto llego roto, quiero mi devolucion 🏨",reclamo,es
+are there flights to madrid on saturday? 🙌,comprar_vuelo,en
+"quero abrir uma startup, quais os tramites?",constituir_empresa,pt
+cual es el saldo de mi cuenta? urgente,consulta_banca,es
+"el producto llgo roto, quiero mi devolucion porfa",reclamo,es
+hey hola,saludo,es
+"good afternoon, how are you? 🙌",saludo,en
+Deseo presentar una queja formal por mi pedido ❤️,reclamo,es
+I want to track my order number 4821 thanks,seguimiento_pedido,en
+quiero formalizar mi negocio y sacar ruc pa una srl ✈️,constituir_empresa,es
+Quiero comprar una pizza de peperoni ahora,comprar_pizza,es
+when does my the sneakers order arrive?,seguimiento_pedido,en
+how much is a dentistry consultation?,consultar_medicina,en
+"quiero poner un reclamo, la impresora llego danado porfa",reclamo,es
+quiero rastrear mi oren numero 4821,seguimiento_pedido,es
+"hello, how is it going?",saludo,en
+"Oi, tudo certo?",saludo,pt
+me pueden dar el tracking de mi orden? hola,seguimiento_pedido,es
+olvide mi contrasena y no puedo recuperarla urgente,soporte_tecnico,es
+quanto custa uma consulta de cardiologia?,agendar_cita_medica,pt
+no me llgea el codigo de verificacion hola,soporte_tecnico,es
+cuando llega mi pedido de el celular?,seguimiento_pedido,es
+Hola que tal 🏨,saludo,es
+"i want to set up a small business, what do i need?",constituir_empresa,en
+"hola, como va todo?",saludo,es
+Whe does my the keyboard order arrive?,seguimiento_pedido,en
+Donde esta mi pedido?,seguimiento_pedido,es
+como solicito un aumento dee linea de credito?,consulta_banca,es
+"good afternoon, how are you? thanks",saludo,en
+"quiero un reembolso, el celular vino defectuoso",reclamo,es
+How much is a dermatology consultation?,agendar_cita_medica,en
+"im very upset, the service was terrible",reclamo,en
+"me duele mucho, tengo dolor de garganta, q medicamento tomo?",consultar_medicina,es
+"gracias, hasta luego gracias",despedida,es
+"Gracias, hasta la proxima",despedida,es
+me consigues un pasaje a piura para manana?,comprar_vuelo,es
+"mi cuenta no me deja hacer pagos, que pasa? ✈️",consulta_banca,es
+Procuro voos baratos para Santiago,comprar_vuelo,pt
+haganme delivery de una pizza criolla porfa porfa,comprar_pizza,es
+mi cuenat esta bloqueada,consulta_banca,es
+cuando llega mi pedido de la impresora? porfa,seguimiento_pedido,es
+el boton de pago no responde en la web urgente 🙌,soporte_tecnico,es
+hey hola por favor 😀,saludo,es
+no me deja iniciar sesion en mi cuenta 🙌,consulta_banca,es
+"grcaias, hasta luego",despedida,es
+es seguro tomar aspirina para dolor de cabeza?,consultar_medicina,es
+cuanto cuesta una consulta de dermatologia? porfa,agendar_cita_medica,es
+quiero rastrear mi orden numero 4821,seguimiento_pedido,es
+cuanto cuesta una consulta de cardiollogia?,agendar_cita_medica,es
+Quisiera rdenar dos pizzas pepperoni,comprar_pizza,es
+me manda una pizza criolla a cusco? porfa,comprar_pizza,es
+i need a cardiology consultation ✈️,consultar_medicina,en
+quando chega me pedido de o fone?,seguimiento_pedido,pt
+que documentos piden para constituir una srl?,constituir_empresa,es
+"hola, como va todo? 👍",saludo,es
+que puedo tomar si tengo fiebre alta gracias,consultar_medicina,es
+preciso de ajuda para formalizar uma startup por favor,constituir_empresa,pt
+cuanto cuesta la pizza pepperoni familiar? hola,comprar_pizza,es
+"buenas, hay alguien? porfa",saludo,es
+i want to submit a formal complaint about my order,reclamo,en
+"Ola, bom dia",saludo,pt
+No puedo acceedr a mi cuenta,soporte_tecnico,es
+necesito una cita medica de cardiologia pa esta semana,agendar_cita_medica,es
+"quiero pagar mi tarjeta, cuanto debo?",consulta_banca,es
+Deseo reservar un hostal con desayuno incluido,reservar_hotel,es
+Tienen pizza americana? quiero pedir una urgente,comprar_pizza,es
+"quiero constituir una sac, que tramites necesito? 😀",constituir_empresa,es
+Preciso de ajuda para formalizar um pequeno negocio urgente,constituir_empresa,pt
+nao consigo transferir dinheiro da minha conta 🙌,consulta_banca,pt
+cuantas veces al dia debo tomar paracetamol?,consultar_medicina,es
+"That would be all, thanks and bye asap",despedida,en
+i cant transfer money from my cacount,consulta_banca,en
+"i have a sore throat, what do you recommend? 🙌",consultar_medicina,en
+i need a boutique hotel for 3 nights in madrid,reservar_hotel,en
+Quisiera reservar un vuelo con Copa a Piura,comprar_vuelo,es
+necesito un hotel cerca del cenro pa 3 noches en quito,reservar_hotel,es
+"Hola, como va todo? ✈️",saludo,es
+necesito una cita medica de traumatologia para esta semana porfa,agendar_cita_medica,es
+my account is not working,soporte_tecnico,en
+i cant transfer money from my account please 😀,consulta_banca,en
+"saludos, buenos dias  todos",saludo,es
+Deseo reservar un hotel boutique con desayuno incluido,reservar_hotel,es
+Me cobraron de mas y quiero un reclamo,reclamo,es
+"Valeu, aate a proxima",despedida,pt
+"Buenas, hay alguien? hola 👍",saludo,es
+Como bloqueo mi tarjeta de credito?,consulta_banca,es
+Me pueden asesorar pa constituir mi startup en Ciudad de Mexico?,constituir_empresa,es
+"buenas tardes, cmoo estan?",saludo,es
+how much is a ticket to lima with latam? hi,comprar_vuelo,en
+"pizza criolla para llevar, cuanto seria? hola 🏨",comprar_pizza,es
+"Mi paquete aun no llega, donde esta? por favor",seguimiento_pedido,es
+El sistema me da error al cargar la pagina porfa,soporte_tecnico,es
+"Buensa, un gusto saludarlos",saludo,es
+quiero comprar un vuelo a ciudad de mexico 😊,comprar_vuelo,es
+necesito el estado de mi envio 👍,seguimiento_pedido,es
+necesito ayuda para formalizar una srl 🏨,constituir_empresa,es
+No puedo iniciar sesion en laa aplicacion,soporte_tecnico,es
+"el producto llego roto, quiero mi devolucion",reclamo,es
+The app is very slow and wont load,soporte_tecnico,en
+quanto custa um voo para bogota com gol? urgente,comprar_vuelo,pt
+im looking 4 cheap flights to miami,comprar_vuelo,en
+"Que tal, buen dia porfa",saludo,es
+"hola, uenas noches",saludo,es
+How umch is a dentistry consultation? hi,consultar_medicina,en
+"Gracias, hasta la proxima 🙏",despedida,es
+"listo, ahsta pronto",despedida,es
+"tenho febre alta, o q recomendam? por favor",consultar_medicina,pt
+Cuanto falta pa q llegue mi compra?,seguimiento_pedido,es
+necesito una consulta de cardiologia,agendar_cita_medica,es
+donde esta mi pedido? urgente,seguimiento_pedido,es
+"Quero abrir um pequeno negocio, quais os tramites?",constituir_empresa,pt
+que documentos piden pa constituir im negocio? 👍,constituir_empresa,es
+Id like to make a reservation at a 4 star hotel thanks,reservar_hotel,en
+good morrning everyone,saludo,en
+"pizza hawaiana para llevar, cuanto seria?",comprar_pizza,es
+Tienen habitaciones disponibles en Arequipa para el finde?,reservar_hotel,es
+"hi, is ayone there?",saludo,en
+i need a round trip flight to panama city,comprar_vuelo,en
+Minha conta do app nao funciona 😀,soporte_tecnico,pt
+mee pueden dar el tracking de mi orden?,seguimiento_pedido,es
+necesitto un resort para 3 noches en lima,reservar_hotel,es
+"Tengo nauseas, q me recomiendan?",consultar_medicina,es
+"gracias x la ayuda, adios urgente",despedida,es
+deseo comprar dos boletos a medellin,comprar_vuelo,es
+el sistema me da error al cargar la pagina hola,soporte_tecnico,es
+me pueden asesorar para constituir una srl en medellin? ❤️,constituir_empresa,es
+perfecto nos vemos 😊,despedida,es
+mi cuenta esta bloqueada 👍,soporte_tecnico,es
+"Gracia por la ayuda, adios 👍",despedida,es
+se me congela la pantala en la aplicacion 🏨,soporte_tecnico,es
+quisiera ordenar dos pizzas hawaiana hola,comprar_pizza,es
+how much is a pediatrics consultation?,agendar_cita_medica,en
+deseo agendar control con oftalmologia para el lunes,agendar_cita_medica,es
+"pizza cuatro quesos para llevar, cuanto seria?",comprar_pizza,es
+preciso de um resort por 3 noites em brasilia 🍕,reservar_hotel,pt
+"el teclado que compre no funciona, exijo solucion porfa",reclamo,es
+Cotizame uun vuelo a Quito en JetSmart,comprar_vuelo,es
+Es seguro tomar naproxeno pa dolor de estomago?,consultar_medicina,es
+quisiera hacer una reserva en un hotel boutique hola,reservar_hotel,es
+"Buenas tardes, como estan?",saludo,es
+"quiero poner un reclamo, la tlevision llego dañado",reclamo,es
+"hello, how is it goingg?",saludo,en
+I want to order a four cheese pizza,comprar_pizza,en
+busco un hostal economico en arequipa,reservar_hotel,es
+when does my the headphones order arrive? 😊,seguimiento_pedido,en
+Es seguro tomar loratadina para nauseas?,consultar_medicina,es
+i want to buy a flight to new york asap,comprar_vuelo,en
+como registro una sac en trujillo?,constituir_empresa,es
+"el audifono q compre no funciona, exijo ssolucion",reclamo,es
+"quero abrir uma empresa, quais os tramites?",constituir_empresa,pt
+me pueden dar hora con el doctor de dermatologia?,agendar_cita_medica,es
+Cuanto falta para que llegue mi commpra?,seguimiento_pedido,es
+quisiera hacer una reserva en un hotel boutique,reservar_hotel,es
+quanto tenho na minha conta poupanca?,consulta_banca,pt
+hay disponibilidad en un hotel 4 estrellas para el viernes? gracias,reservar_hotel,es
+"la television que compre no funciona, exijo soluucion",reclamo,es
+"buenas tardes, como estan?",saludo,es
+Ya pague pero no se cuando llega mi pedido 🏨,seguimiento_pedido,es
+necesito el estado de cuenat de este mes,consulta_banca,es
+"Consulta de dermatologia, cuanto seria?",agendar_cita_medica,es
+"Quiero constituir una SAC, que tramites necesito?",constituir_empresa,es
+"que tal, buen ida ❤️",saludo,es
+"quiero poner un reclamo, la impresora llego dnado gracias",reclamo,es
+donde esta mi pedido? hola,seguimiento_pedido,es
+"ok gracias, bye 😀",despedida,es
+necesito un vuelo ida y vuelta a trujillo gracias,comprar_vuelo,es
+is there availability at a 4 star hotel for friday? thanks,reservar_hotel,en
+Hay vuelos a Arequipa para el sabado?,comprar_vuelo,es
+necesito ayuda para formalizar una empresa de servicios,constituir_empresa,es
+nao consigo acessar minha conta,consulta_banca,pt
+"thank you, have a nice day 🙌",despedida,en
+necesito na consulta de odontologia,agendar_cita_medica,es
+necesito un hotel 4 estrellas para 3 noches en trujillo,reservar_hotel,es
+"good afternoon, how are you? hi",saludo,en
+quiero reservar un hotel boutique en lima 🙏,reservar_hotel,es
+"alright, see you soon",despedida,en
+quiero reservar un hostal en lima porfa 🍕,reservar_hotel,es
+deseo agendar control con peiatria para el lunes 😀,agendar_cita_medica,es
+Is it safe 2 take ibuprofen for back pain?,consultar_medicina,en
+que puedo tomar si tengo tos seca?,consultar_medicina,es
+"las zapatillas que compre no funciona, exijo solucion 🏨",reclamo,es
+"Muy amable, que tenga buen dia",despedida,es
+Preciso de uma consulta de ortopedia esta semana,agendar_cita_medica,pt
+el ibuprofeno sirve para gripe? por favor 😊,consultar_medicina,es
+necesito un vuelo ida y vuelta a quito por favor,comprar_vuelo,es
+"Mi pedido dice en camino hace 3 dias, q paso?",seguimiento_pedido,es
+the app keeps crashing when i open it,soporte_tecnico,en
+Deseo presentar una queja formal por mi pedido hola,reclamo,es
+necesito un hostal para 3 noches en ciudad de mexico,reservar_hotel,es
+i forgot y password and cant reset it asap,soporte_tecnico,en
+haganme delivery de una pizza de peperoni porfa,comprar_pizza,es
+me reservan una habitacion en santiago del 10 al 15? 😊,reservar_hotel,es
+Quiero reservar un resort en Ciudad de Mexico gracias,reservar_hotel,es
+quiero consultar los movimienttos de mi cuenta,consulta_banca,es
+onde esta o meu pedido? 🍕,seguimiento_pedido,pt
+El sistema me da error al cargar la pagina,soporte_tecnico,es
+Mi cuenta no funciona,consulta_banca,es
+the system gives me an error loading the page,soporte_tecnico,en
+"hola, buenos dias",saludo,es
+busco un hotel boutique economico en quito por favor,reservar_hotel,es
+"hi, good morning",saludo,en
+mi cuenta de la app no funciona,soporte_tecnico,es
+"Quiero constituir una SAC, q tramites necesito? 🙏",constituir_empresa,es
+I need a cardiology consultation,agendar_cita_medica,en
+Quiero reservar un hotel boutique en Medellin,reservar_hotel,es
+no me llega el codigo de verificacion urgente,soporte_tecnico,es
+i want to schedule an appointment with orthopedics hi,agendar_cita_medica,en
+"valeu, ate a proxima 😊",despedida,pt
+quiero reservar un hote 4 estrellas en trujillo,reservar_hotel,es
+How much do I have in my savings account?,consulta_banca,en
+Tienen disponibilidad para una consulta de oftalmologia?,agendar_cita_medica,es
+"Hi, good morning asap",saludo,en
+quisiera resservar una cita de ginecologia en quito 😊,agendar_cita_medica,es
+quisiera reservar un vuelo con jetsmart a medellin,comprar_vuelo,es
+Preciso de um hotel boutique por 3 noites em Lima,reservar_hotel,pt
+minha ocnta nao funciona,soporte_tecnico,pt
+"boa tarde, como vao?",saludo,pt
+necesito una consulta de dermatologia hola,agendar_cita_medica,es
+"mi pedido dice en camino hace 3 dias, q passo?",seguimiento_pedido,es
+me cobraron de mas y quiero un reclamo 🏨,reclamo,es
+"my package hasnt arrived yet, where is it?",seguimiento_pedido,en
+"I have back pain, what do you recommend? 🙌",consultar_medicina,en
+la app se cierra sola cada vez q la abro,soporte_tecnico,es
+"I want to file a complaint, the laptop arrived damaged",reclamo,en
+No puedo entrar a mi cuenta gracias,soporte_tecnico,es
+Can I book a slot with the pediatrics doctor?,agendar_cita_medica,en
+"La aplicacion esta muy lenta, no carga",soporte_tecnico,es
+My account is not working please,consulta_banca,en
+cuando llega mi pedido de el audifono?,seguimiento_pedido,es
+es seguro tomar omeprazol para dolor de garganta?,consultar_medicina,es
+"Gacias, hasta la proxima 🙌",despedida,es
+cual es el saldo de mi cuenta? po favor 🏨,consulta_banca,es
+how much is a orthopedics consultation?,agendar_cita_medica,en
+necesito una consulta de cardiologia urgente,agendar_cita_medica,es
+Quisiera reservar un vuelo con Avianca a Santiago,comprar_vuelo,es
+Necesito el estado de mi envio,seguimiento_pedido,es
+necesito un hotel cerca del centro para 3 noches en santiago,reservar_hotel,es
+Me manda una pizza criolla a Trujillo?,comprar_pizza,es
+i want to check my account transactions,consulta_banca,en
+"Obrigao, ate logo",despedida,pt
+"el audifono que compre no funciona, exijo solucion",reclamo,es
+"la impresora que compre no funciona, exijo solucion hola",reclamo,es
+Busco vuelos baratos a Piura,comprar_vuelo,es
+Necesito una cita medica de dermatologia para esta semana,agendar_cita_medica,es
+El sistema me da error al cargar la pagina urgente,soporte_tecnico,es
+minha conta esta bloqueada obrigado,soporte_tecnico,pt
+hay vuelos a lima para el sabado? gracias,comprar_vuelo,es
+Cuanto tengo disponible en mi cuenta de ahorros?,consulta_banca,es
+mi cuenta esta bloqueada,soporte_tecnico,es
+"Quiero constituir una EIRL, q tramites necesito? hola",constituir_empresa,es
+Deseo agendar control con pediatria pa el lunes,agendar_cita_medica,es
+can i get a hawaiian pizzza with extra cheese? ✈️,comprar_pizza,en
+Id like a margherrita pizza 4 pickup,comprar_pizza,en
+How much does it cost to create a startup?,constituir_empresa,en
+cuanto cuesta una habitacion doble en medellin?,reservar_hotel,es
+where is my order?,seguimiento_pedido,en
+Preciso de um voo ida e volta para Lisboa,comprar_vuelo,pt
+No me deja iniciar sesion en mi cuenta,consulta_banca,es
+me manda una pizza hawaiana a trujillo?,comprar_pizza,es
+Hola uqe tal,saludo,es
+como solicito un aumento de linea de credito? gracias,consulta_banca,es
+No puedo acceder a mi cuenta,soporte_tecnico,es
+"mi pedido dice en camino hace 3 dias, q paso? porfa",seguimiento_pedido,es
+i want to buy a flight to lima thanks,comprar_vuelo,en
+"que tal, buen dia urgente ✈️",saludo,es
+"mi pedido dice en camino hace 3 dias, que paso? por favor",seguimiento_pedido,es
+Quanto custa a pizza portuguesa grande?,comprar_pizza,pt
+"I have a sore throat, what do you recommend? thanks",consultar_medicina,en
+quero rastrear meu pedido numero 4821 urgente,seguimiento_pedido,pt
+desejo apresentar uma queixa formal sobre meu pedido,reclamo,pt
+tienen habitaciones disponibles en cusco pa el finde? urgente,reservar_hotel,es
+are there flights to cancun on saturday?,comprar_vuelo,en
+"Eso seria todo, gracias y chau hola",despedida,es
+"that would be all, thanks and bye ❤️",despedida,en
+no puedo entrar a mi cuenta,soporte_tecnico,es
+Cuando llega mi pedido de la impresora?,seguimiento_pedido,es
+"Listo, hasta pronto",despedida,es
+"ok muchas gracias, chau",despedida,es
+"mi cuenta no me deja hacer pagos, que paasa? ✈️",consulta_banca,es
+"el producto llego roto, quiero mi devolucion por favor",reclamo,es
+Does aspirin help with back pain?,consultar_medicina,en
+hay disponibilidad en un resort pa el viernes?,reservar_hotel,es
+Id like 2 book a flight with American 2 Panama City,comprar_vuelo,en
+"me antojo una napolitana, tienen promo?",comprar_pizza,es
+Necesito una consulta de pediatria,consultar_medicina,es
+I want to book a resort in Panama City please,reservar_hotel,en
+"buenas, hay alguien?",saludo,es
+"buenas, hay alguien? urgente ✈️",saludo,es
+"Hola, buenas onches por favor",saludo,es
+cuanto cuesta una consulta de cardiologia?,consultar_medicina,es
+No puedo transferir dinero desde mi cuenta hola,consulta_banca,es
+"quiero poner un reclamo, la laptop llego dañado",reclamo,es
+Cuanto cuest una consulta de cardiologia?,consultar_medicina,es
+cuanto cuesta crear una eirl?,constituir_empresa,es
+What documents are required to register a small business? hi,constituir_empresa,en
+cuanto demora registrar mi negocio?,constituir_empresa,es
+Hay vuelos a Santiago para el sabado?,comprar_vuelo,es
+do you have availability for a cardiology appointment?,agendar_cita_medica,en
+"gracias, hasta la proxima 😀",despedida,es
+I need a 4 star hotel for 3 nights in Lima 🙏,reservar_hotel,en
+Me pueden dar hora con el doctor de pediatria? por favor,agendar_cita_medica,es
+quisiera ordenar dos pizzas pepperoni gracias,comprar_pizza,es
+tienen pizza hawaiana? quiero pedir una,comprar_pizza,es
+cuando llega mii pedido de la laptop? urgente,seguimiento_pedido,es
+"tengo fiebre alta, que me recomiendan?",consultar_medicina,es
+I forgot my passwword and cant reset it,soporte_tecnico,en
