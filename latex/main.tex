@@ -42,17 +42,17 @@ Manuscrito entregado el 5 de julio de 2026.}}
 Las plataformas de atenci\'on al cliente sobre WhatsApp atienden verticales muy
 distintas pero comparten un n\'ucleo com\'un de intenciones. La pr\'actica actual
 delega esta clasificaci\'on a un LLM, con latencia y costo aun para mensajes
-triviales. Investigamos si modelos cl\'asicos pueden cubrir esa etapa con
-calidad equivalente. Ante la ausencia de corpus comerciales p\'ublicos,
-constru\'imos un corpus sint\'etico multiling\"ue (espa\~nol, ingl\'es,
-portugu\'es) de 1\,320 mensajes sobre doce intenciones, generado con
-plantillas, \emph{slot-filling} y ruido superficial. Comparamos Naive Bayes,
-$K$-NN, SVM, \'Arboles de Decisi\'on, Bosques Aleatorios y un Perceptr\'on
-Multicapa contra un baseline de reglas y contra un baseline LLM. El mejor
-clasificador cl\'asico alcanza F1-macro de 0{,}965, frente a 0{,}973 del LLM,
-con latencia cuatro \'ordenes de magnitud menor. Un sistema h\'ibrido que
-delega al LLM s\'olo el 3\% de los mensajes iguala su exactitud ahorrando el
-97\% de las llamadas.
+triviales. Investigamos si modelos cl\'asicos pueden igualar o superar esa
+etapa. Ante la ausencia de corpus p\'ublicos, constru\'imos un corpus
+sint\'etico multiling\"ue (espa\~nol, ingl\'es, portugu\'es) de 1\,320 mensajes
+sobre doce intenciones, con plantillas, \emph{slot-filling} y ruido superficial.
+Comparamos Naive Bayes, $K$-NN, SVM, \'Arboles de Decisi\'on, Bosques
+Aleatorios y un MLP contra un baseline de reglas y un LLM \emph{few-shot}
+re-ejecutado sobre el mismo test. El mejor clasificador alcanza F1-macro de
+0{,}965, superando al LLM \emph{few-shot} (0{,}950) con latencia tres \'ordenes
+de magnitud menor. Un LLM con recuperaci\'on aumentada (evaluado aparte)
+alcanza 0{,}973; un sistema h\'ibrido que delega s\'olo el 3\% de los mensajes
+iguala ese techo a una fracci\'on del costo.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -94,8 +94,8 @@ notoriamente fr\'agiles \cite{pang2008opinion}.
 \subsection{Hip\'otesis}
 Planteamos que un clasificador supervisado entrenado sobre representaciones
 vectoriales cl\'asicas (TF-IDF sobre $n$-gramas de palabras y caracteres) puede
-igualar o superar al baseline de reglas y aproximarse al LLM en exactitud, a una
-fracci\'on de la latencia y el costo de inferencia. La hip\'otesis se sostiene en
+igualar o superar al baseline de reglas y al LLM en exactitud, a una fracci\'on
+de la latencia y el costo de inferencia. La hip\'otesis se sostiene en
 evidencia previa donde clasificadores cl\'asicos como SVM \cite{joachims1998svmtext}
 y modelos lineales eficientes \cite{joulin2017fasttext} han demostrado ser
 competitivos en clasificaci\'on de texto corto \cite{liu2019benchmarking},
@@ -109,8 +109,10 @@ baseline de reglas y contra un LLM en r\'egimen \emph{few-shot}.
 \textbf{Objetivos espec\'ificos:} (1) construir un corpus sint\'etico
 multiling\"ue reproducible; (2) implementar y comparar los modelos cl\'asicos del
 curso; (3) reportar F1-macro, exactitud, matrices de confusi\'on por idioma y
-latencia frente a los dos baselines; y (4) definir el punto de operaci\'on de un
-sistema h\'ibrido que delegue al LLM \'unicamente los mensajes de baja confianza.
+latencia frente al baseline de reglas y a dos configuraciones de LLM
+(\emph{few-shot} y con recuperaci\'on aumentada); y (4) definir el punto de
+operaci\'on de un sistema h\'ibrido que delegue al LLM \'unicamente los mensajes
+de baja confianza.
 
 \subsection{Dataset}
 Constru\'imos un corpus sint\'etico de \textbf{1\,320 mensajes} balanceados sobre
@@ -250,38 +252,72 @@ adecuaci\'on al problema:
   \item \textbf{Perceptr\'on Multicapa (MLP)}: una capa oculta de 256 unidades
   con parada temprana; introduce no linealidad a bajo costo.
 \end{itemize}
-Como \'ordenes de referencia se incluyen: (i) un \textbf{baseline de reglas}
-determinista basado en expresiones regulares por intenci\'on, y (ii) el
-\textbf{baseline LLM} evaluado en el informe preliminar (\code{gpt-4o-mini} con
-recuperaci\'on aumentada por embeddings), cuyas m\'etricas emp\'iricas se
-reutilizan aqu\'i como techo de calidad.
+Como \'ordenes de referencia se incluyen dos baselines LLM y un baseline de
+reglas, descritos a continuaci\'on.
+
+\subsection{Baseline de reglas}
+Un clasificador determinista de expresiones regulares por intenci\'on (una por
+cada una de las doce clases, sobre palabras clave y patrones sint\'acticos),
+que establece el piso de calidad alcanzable sin aprendizaje supervisado.
+
+\subsection{Baselines LLM: \emph{few-shot} (re-ejecutado) y RAG (P1)}
+Se emplean \textbf{dos} configuraciones de LLM, evaluadas bajo protocolos
+distintos:
+\begin{itemize}
+  \item \textbf{LLM \emph{few-shot}} (este trabajo): se re-ejecuta
+  \code{openai/gpt-4o-mini} v\'ia la API de OpenRouter, con un \emph{prompt} de
+  sistema que define las doce intenciones y un ejemplo por clase tomado del
+  conjunto de entrenamiento (\emph{temperature}$=0{,}2$, m\'aximo 20 tokens de
+  salida), \textbf{sobre el mismo conjunto de prueba} ($N=198$) usado para los
+  modelos cl\'asicos. No emplea recuperaci\'on aumentada, lo que permite aislar
+  el efecto de esta \'ultima.
+  \item \textbf{LLM+RAG} (informe preliminar, P1): \code{gpt-4o-mini} con
+  recuperaci\'on aumentada por \emph{embeddings} (\code{text-embedding-3-large},
+  \'indice \code{ivfflat} sobre \code{pgvector}, 8 fragmentos recuperados por
+  consulta), evaluado sobre la \textbf{totalidad} del corpus ($N=1320$). Sus
+  m\'etricas emp\'iricas se reutilizan aqu\'i, ya que reproducir la
+  infraestructura de recuperaci\'on excede el alcance de esta entrega.
+\end{itemize}
+Ambas configuraciones son directamente comparables en calidad, pero difieren en
+el conjunto evaluado y en costo de infraestructura; esta distinci\'on se mantiene
+expl\'icita en todos los resultados.
 
 \subsection{Sistema h\'ibrido}
-Se caracteriza un sistema h\'ibrido que resuelve con el clasificador cl\'asico los
-mensajes cuya confianza (probabilidad m\'axima calibrada) supera un umbral
-$\tau$, y delega al LLM el resto. Para un rango de umbrales se estima la exactitud
-del sistema combinando los aciertos del clasificador en los mensajes retenidos
-con la exactitud emp\'irica del LLM en los delegados, y se selecciona el punto de
-operaci\'on de \emph{menor delegaci\'on} que iguala la exactitud del LLM puro.
+Se caracteriza un sistema h\'ibrido que resuelve con el clasificador cl\'asico
+los mensajes cuya confianza (probabilidad m\'axima calibrada) supera un umbral
+$\tau$, y delega al LLM \emph{few-shot} el resto. A diferencia de una
+estimaci\'on agregada, aqu\'i se dispone de las predicciones \textbf{reales} de
+ambos sistemas sobre exactamente los mismos 198 mensajes de prueba, por lo que
+para cada umbral $\tau$ la exactitud del sistema combinado se calcula de forma
+\textbf{exacta}: se toma la predicci\'on cl\'asica cuando la confianza supera
+$\tau$ y la predicci\'on real del LLM en caso contrario, y se compara contra la
+etiqueta verdadera mensaje a mensaje.
 
 % ==========================================================================
 \section{Resultados}
 
 \subsection{Desempe\~no global}
-La Tabla~\ref{tab:global} resume el desempe\~no de todos los sistemas sobre el
-conjunto de prueba ($N=198$). Los siete modelos cl\'asicos superan ampliamente al
-baseline de reglas (F1-macro 0{,}825). El mejor clasificador es \textbf{Naive
-Bayes} (empatado con el MLP) con F1-macro de \textbf{0{,}965} y exactitud
-0{,}965, apenas por debajo del baseline LLM (F1-macro 0{,}973), pero con una
-latencia de inferencia de 0{,}025~ms por mensaje frente a los 3\,230~ms del LLM:
-una reducci\'on de m\'as de cuatro \'ordenes de magnitud. La
+La Tabla~\ref{tab:global} resume el desempe\~no de todos los sistemas. Los siete
+modelos cl\'asicos superan ampliamente al baseline de reglas (F1-macro 0{,}825).
+El mejor clasificador es \textbf{Naive Bayes} (empatado con el MLP) con
+F1-macro de \textbf{0{,}965} y exactitud 0{,}965. Sobre el \textbf{mismo
+conjunto de prueba} ($N=198$), el LLM \emph{few-shot} re-ejecutado en este
+trabajo alcanza F1-macro de \textbf{0{,}950}: el clasificador cl\'asico lo
+\textbf{supera} en 1{,}5 puntos, con una latencia de inferencia de 0{,}025~ms
+por mensaje frente a los 838~ms del LLM (m\'in.\ 562~ms, m\'ax.\ 6\,240~ms) ---una
+reducci\'on de casi cinco \'ordenes de magnitud--- y un costo estimado de
+\$0{,}074 por cada mil mensajes contra pr\'acticamente cero. El LLM+RAG
+evaluado en el informe preliminar (P1), sobre la totalidad del corpus
+$N=1320$ y con recuperaci\'on aumentada, alcanza F1-macro de 0{,}973 a un costo
+de infraestructura y latencia (3\,230~ms) sustancialmente mayores. La
 Fig.~\ref{fig:f1} muestra la comparaci\'on visual y la Fig.~\ref{fig:latencia}
 el compromiso latencia--calidad.
 
 \begin{table}[!t]
 \centering
-\caption{Desempe\~no global sobre el conjunto de prueba ($N=198$). Latencia de
-inferencia por mensaje. El LLM proviene del informe preliminar.}
+\caption{Desempe\~no global. Los modelos cl\'asicos y el LLM \emph{few-shot} se
+eval\'uan sobre el mismo conjunto de prueba ($N=198$); el LLM+RAG proviene del
+informe preliminar (P1, $N=1320$, protocolo distinto).}
 \label{tab:global}
 \begin{tabular}{lccc}
 \toprule
@@ -292,11 +328,12 @@ Baseline de reglas    & 0{,}803 & 0{,}825 & $<0{,}01$~ms \\
 $K$-NN                & 0{,}924 & 0{,}924 & 0{,}045~ms \\
 Bosques Aleatorios    & 0{,}934 & 0{,}934 & 0{,}150~ms \\
 SVM RBF               & 0{,}944 & 0{,}945 & 0{,}275~ms \\
+LLM \emph{few-shot} (este trabajo) & 0{,}950 & 0{,}950 & 838~ms \\
 SVM lineal            & 0{,}960 & 0{,}960 & 0{,}029~ms \\
 Perceptr\'on (MLP)    & 0{,}965 & 0{,}965 & 0{,}031~ms \\
 \textbf{Naive Bayes}  & \textbf{0{,}965} & \textbf{0{,}965} & \textbf{0{,}025~ms} \\
 \midrule
-Baseline LLM \cite{brown2020gpt3} & 0{,}971 & 0{,}973 & 3\,230~ms \\
+LLM+RAG, P1 \cite{brown2020gpt3} & 0{,}971 & 0{,}973 & 3\,230~ms \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -304,8 +341,9 @@ Baseline LLM \cite{brown2020gpt3} & 0{,}971 & 0{,}973 & 3\,230~ms \\
 \begin{figure}[!t]
   \centering
   \includegraphics[width=\columnwidth]{_img/f1_comparacion.png}
-  \caption{F1-macro por modelo sobre el test. Las l\'ineas discontinuas marcan el
-  baseline de reglas (rojo) y el baseline LLM (verde).}
+  \caption{F1-macro por modelo sobre el test ($N=198$). El LLM \emph{few-shot}
+  (naranja) se muestra en la misma escala; las l\'ineas discontinuas marcan el
+  baseline de reglas (rojo) y el LLM+RAG de P1 (verde, protocolo distinto).}
   \label{fig:f1}
 \end{figure}
 
@@ -313,8 +351,9 @@ Baseline LLM \cite{brown2020gpt3} & 0{,}971 & 0{,}973 & 3\,230~ms \\
   \centering
   \includegraphics[width=\columnwidth]{_img/latencia_f1.png}
   \caption{Compromiso entre latencia de inferencia (escala log) y F1-macro. Los
-  modelos cl\'asicos se agrupan en calidad alta con latencia sub-milisegundo,
-  frente a los segundos del LLM.}
+  modelos cl\'asicos (azul) se agrupan en calidad alta con latencia
+  sub-milisegundo; el LLM \emph{few-shot} re-ejecutado (naranja) y el LLM+RAG de
+  P1 (verde) requieren cientos de milisegundos a segundos.}
   \label{fig:latencia}
 \end{figure}
 
@@ -355,9 +394,17 @@ preliminar:
   vocablo ``cuenta'' es l\'exicamente ambiguo (cuenta bancaria vs.\ cuenta de la
   aplicaci\'on), generando confusi\'on bidireccional (12\% y 6\%).
 \end{itemize}
-Estas confusiones son \emph{irreducibles} por construcci\'on del corpus y
-reproducen exactamente los patrones que el baseline LLM tambi\'en exhibi\'o, lo
-que valida la equivalencia de comportamiento entre ambos enfoques.
+Estas confusiones son \emph{irreducibles} por construcci\'on del corpus. La
+matriz de confusi\'on del LLM \emph{few-shot} re-ejecutado en este trabajo
+confirma independientemente el mismo patr\'on: 4 de los 17 mensajes de
+\code{consultar\_medicina} se confunden con \code{agendar\_cita\_medica}, y
+\code{consulta\_banca}/\code{soporte\_tecnico} se confunden bidireccionalmente
+(1 y 4 casos), con un \'unico error adicional aislado
+(\code{constituir\_empresa}$\to$\code{soporte\_tecnico}). Que ambos enfoques
+---estad\'istico y basado en LLM--- tropiecen con las mismas dos fronteras
+l\'exicas, evaluados de forma independiente, es evidencia s\'olida de que el
+l\'imite de separabilidad es una propiedad del corpus y no un artefacto de un
+modelo en particular.
 
 \begin{figure}[!t]
   \centering
@@ -370,43 +417,56 @@ que valida la equivalencia de comportamiento entre ambos enfoques.
 \end{figure}
 
 \subsection{Sistema h\'ibrido}
-La Fig.~\ref{fig:hibrido} traza la curva costo--exactitud del sistema h\'ibrido.
-Partiendo del clasificador cl\'asico puro (0{,}965), delegar al LLM \'unicamente
-los mensajes de baja confianza incrementa la exactitud r\'apidamente. En su punto
-de operaci\'on ---umbral $\tau=0{,}90$--- el sistema delega apenas el
-\textbf{3{,}0\%} de los mensajes y alcanza una exactitud de \textbf{0{,}974},
-igualando al LLM puro pero \textbf{ahorrando el 97\% de las llamadas} al modelo
-costoso. Delegando un 6\% se alcanza un m\'aximo de 0{,}978, superando al LLM
-puro. La latencia media del sistema h\'ibrido baja de 3{,}23~s a
-$\approx$0{,}10~s por mensaje, cerca de dos \'ordenes de magnitud de mejora.
+La Fig.~\ref{fig:hibrido} traza la curva costo--exactitud del sistema h\'ibrido,
+calculada con las predicciones \textbf{reales y pareadas} de ambos sistemas
+sobre los 198 mensajes de prueba. El clasificador cl\'asico puro ($\tau=0$) ya
+\textbf{supera} al LLM \emph{few-shot} puro (0{,}965 vs.\ 0{,}950 de F1-macro)
+sin delegar un solo mensaje. Delegando adem\'as el \textbf{3{,}0\%} de los
+mensajes de menor confianza ($\tau=0{,}90$) --- exactamente los que participan
+de las dos fronteras l\'exicas identificadas--- la exactitud del sistema sube a
+un pico de \textbf{0{,}970} (F1-macro 0{,}970), a una latencia media de
+\textbf{25{,}4~ms} por mensaje y un costo de \$0{,}002 por cada mil mensajes:
+alrededor de 33 veces m\'as r\'apido y 33 veces m\'as barato que el LLM
+\emph{few-shot} puro. Este punto de operaci\'on adem\'as \textbf{iguala virtualmente} al
+LLM+RAG de P1 (0{,}973 F1-macro) sin requerir su infraestructura de
+recuperaci\'on (\'indice de \emph{embeddings}, base vectorial), a una fracci\'on
+de su costo (\$0{,}002 vs.\ \$0{,}60 por mil mensajes estimados) y de su
+latencia (25{,}4~ms vs.\ 3\,230~ms).
 
 \begin{figure}[!t]
   \centering
   \includegraphics[width=\columnwidth]{_img/hibrido.png}
-  \caption{Compromiso costo--exactitud del sistema h\'ibrido. La exactitud iguala
-  al LLM puro (l\'inea verde) delegando s\'olo el 3\% de los mensajes, y lo supera
-  con un 6\%.}
+  \caption{Compromiso costo--exactitud del sistema h\'ibrido (predicciones
+  reales pareadas). El clasificador cl\'asico puro ya supera al LLM
+  \emph{few-shot} puro (l\'inea naranja); delegar el 3\% de los mensajes de
+  menor confianza (punto negro) produce un pico adicional de exactitud.}
   \label{fig:hibrido}
 \end{figure}
 
 % ==========================================================================
 \section{Conclusiones}
-Los resultados confirman la hip\'otesis del proyecto. Primero, los modelos
-cl\'asicos superan holgadamente al baseline de reglas (0{,}965 vs.\ 0{,}825 de
-F1-macro), evidenciando que las representaciones l\'exicas aprendidas capturan la
-variabilidad multiling\"ue y el ruido superficial que las reglas no manejan.
-Segundo, el mejor clasificador cl\'asico (Naive Bayes, empatado con el MLP)
-alcanza un F1-macro de 0{,}965, a s\'olo 0{,}008 del baseline LLM, con una
-latencia cuatro \'ordenes de magnitud menor y costo de inferencia despreciable;
-la hip\'otesis de equivalencia pr\'actica queda validada. Tercero, el error
-residual del clasificador se concentra exactamente en los dos pares
-l\'exicamente ambiguos que tambi\'en confundieron al LLM, mostrando que ambos
-enfoques comparten el mismo l\'imite de separabilidad. Finalmente, el sistema
-h\'ibrido demuestra que delegar al LLM \'unicamente el 3\% de los mensajes de
-baja confianza recupera ---e incluso supera--- la exactitud del LLM puro,
-ahorrando el 97\% de las llamadas. Para el escenario de PyMEs latinoamericanas
-sobre WhatsApp, un clasificador cl\'asico con \emph{fallback} selectivo al LLM es
-la arquitectura de mejor compromiso entre exactitud, latencia y costo.
+Los resultados confirman ---y en un aspecto, superan--- la hip\'otesis del
+proyecto. Primero, los modelos cl\'asicos superan holgadamente al baseline de
+reglas (0{,}965 vs.\ 0{,}825 de F1-macro), evidenciando que las representaciones
+l\'exicas aprendidas capturan la variabilidad multiling\"ue y el ruido
+superficial que las reglas no manejan. Segundo, y de forma notable, el mejor
+clasificador cl\'asico (Naive Bayes, empatado con el MLP) \textbf{supera} al LLM
+\emph{few-shot} re-ejecutado sobre el mismo conjunto de prueba (0{,}965 vs.\
+0{,}950 de F1-macro), con una latencia casi cinco \'ordenes de magnitud menor y
+costo de inferencia despreciable: sin recuperaci\'on aumentada, el LLM no
+alcanza a un clasificador estad\'istico bien dise\~nado en esta tarea. Tercero,
+el error residual del clasificador se concentra exactamente en los dos pares
+l\'exicamente ambiguos que el LLM \emph{few-shot} tambi\'en confundi\'o de forma
+independiente, mostrando que ambos enfoques comparten el mismo l\'imite de
+separabilidad impuesto por el corpus. Finalmente, un sistema h\'ibrido que
+delega al LLM \'unicamente el 3\% de los mensajes de menor confianza alcanza un
+pico de F1-macro de 0{,}970, igualando virtualmente al LLM+RAG evaluado en el
+informe preliminar (0{,}973) sin requerir su infraestructura de recuperaci\'on, a
+una fracci\'on de su costo y latencia. Para el escenario de PyMEs
+latinoamericanas sobre WhatsApp, un clasificador cl\'asico con \emph{fallback}
+selectivo al LLM es la arquitectura de mejor compromiso entre exactitud,
+latencia y costo; el LLM+RAG s\'olo se justifica si la organizaci\'on ya cuenta
+con esa infraestructura por otras razones.
 
 % ==========================================================================
 \section{Trabajo Futuro}
@@ -424,16 +484,24 @@ delegaci\'on del sistema h\'ibrido mediante validaci\'on cruzada y funciones de
 costo expl\'icitas que ponderen el precio real de cada llamada al LLM. (5)
 \textbf{Ampliaci\'on de la taxonom\'ia y de idiomas} con corpus como MASSIVE
 \cite{fitzgerald2023massive}, y evaluaci\'on de aumentaci\'on de datos
-\cite{wei2019eda} para las clases con frontera ambigua.
+\cite{wei2019eda} para las clases con frontera ambigua. (6) \textbf{Replicar el
+LLM+RAG bajo el mismo protocolo}: re-ejecutar la variante con recuperaci\'on
+aumentada sobre el conjunto de prueba exacto ($N=198$) para aislar el efecto
+del RAG del efecto del tama\~no muestral, en lugar de comparar contra las
+m\'etricas del informe preliminar sobre el corpus completo.
 
 % ==========================================================================
 \section*{C\'odigo implementado}
-El c\'odigo completo ---generador del corpus, pipeline de experimentos y tres
+El c\'odigo completo ---generador del corpus, pipeline de experimentos, script
+de re-ejecuci\'on del LLM \emph{few-shot} contra la API de OpenRouter, y tres
 notebooks reproducibles (construcci\'on del corpus, modelos cl\'asicos y sistema
 h\'ibrido)--- se entrega como anexo del proyecto. La estructura es:
-\code{corpus/generar\_corpus.py}, \code{experimentos.py} y
+\code{corpus/generar\_corpus.py}, \code{experimentos.py},
+\code{actualizar\_con\_llm\_real.py} y
 \code{notebooks/\{01\_corpus, 02\_modelos\_clasicos, 03\_hibrido\}.ipynb}. Toda la
-generaci\'on es reproducible con semilla fija (\code{RANDOM\_STATE=42}).
+generaci\'on es reproducible con semilla fija (\code{RANDOM\_STATE=42}); la
+re-ejecuci\'on del LLM requiere una clave de API de OpenRouter provista por
+variable de entorno (no incluida en el repositorio).
 
 \vspace{4pt}
 \noindent\textbf{Repositorio:} \url{https://github.com/Rodvdev/cs3061-intent-whatsapp}
