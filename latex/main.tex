@@ -40,19 +40,18 @@ Tecnolog\'ia (UTEC), Lima, Per\'u. Correo: \code{rodrigo.vasquez@utec.edu.pe}.}}
 \begin{abstract}
 Las plataformas de atenci\'on al cliente sobre WhatsApp atienden verticales muy
 distintas pero comparten un n\'ucleo com\'un de intenciones. La pr\'actica actual
-delega esta clasificaci\'on a un modelo de lenguaje de gran escala (LLM),
-incurriendo en latencia y costo aun para mensajes triviales. Este trabajo
-investiga si modelos cl\'asicos de aprendizaje autom\'atico pueden cubrir esa
-etapa con calidad equivalente. Como los corpus comerciales no son p\'ublicos,
-constru\'imos un corpus sint\'etico multiling\"ue (espa\~nol, ingl\'es y
-portugu\'es) de 1\,320 mensajes balanceados sobre doce intenciones can\'onicas,
-generado con plantillas, \emph{slot-filling} y ruido superficial. Comparamos
-Naive Bayes, $K$-NN, SVM (lineal y RBF), \'Arboles de Decisi\'on, Bosques
-Aleatorios y un Perceptr\'on Multicapa contra un baseline de reglas y contra el
-baseline LLM. El mejor clasificador cl\'asico alcanza un F1-macro de 0{,}965,
-frente a 0{,}973 del LLM, con una latencia cuatro \'ordenes de magnitud menor.
-Un sistema h\'ibrido que delega al LLM s\'olo el 3\% de los mensajes iguala su
-exactitud ahorrando el 97\% de las llamadas.
+delega esta clasificaci\'on a un LLM, con latencia y costo aun para mensajes
+triviales. Investigamos si modelos cl\'asicos pueden cubrir esa etapa con
+calidad equivalente. Ante la ausencia de corpus comerciales p\'ublicos,
+constru\'imos un corpus sint\'etico multiling\"ue (espa\~nol, ingl\'es,
+portugu\'es) de 1\,320 mensajes sobre doce intenciones, generado con
+plantillas, \emph{slot-filling} y ruido superficial. Comparamos Naive Bayes,
+$K$-NN, SVM, \'Arboles de Decisi\'on, Bosques Aleatorios y un Perceptr\'on
+Multicapa contra un baseline de reglas y contra un baseline LLM. El mejor
+clasificador cl\'asico alcanza F1-macro de 0{,}965, frente a 0{,}973 del LLM,
+con latencia cuatro \'ordenes de magnitud menor. Un sistema h\'ibrido que
+delega al LLM s\'olo el 3\% de los mensajes iguala su exactitud ahorrando el
+97\% de las llamadas.
 \end{abstract}
 
 \begin{IEEEkeywords}
