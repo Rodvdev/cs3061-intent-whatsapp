@@ -1,5 +1,7 @@
 # Proyecto Final CS 3061 — Clasificación Multilingüe de Intenciones (WhatsApp)
 
+Repositorio: https://github.com/Rodvdev/cs3061-intent-whatsapp
+
 Entrega final del curso de Machine Learning (UTEC). Compara modelos clásicos de
 aprendizaje automático contra un baseline de reglas y el baseline LLM del primer
 informe, sobre un corpus sintético multilingüe de atención al cliente.
