@@ -40,9 +40,6 @@ Los notebooks se ejecutan con Jupyter y reutilizan `experimentos.py`.
 Subir la carpeta `latex/` a Overleaf (plantilla IEEE Transactions) y compilar
 `main.tex` con pdfLaTeX + BibTeX. Localmente: `tectonic latex/main.tex`.
 
-> **Pendiente:** reemplazar el enlace de repositorio placeholder en `main.tex`
-> (sección "Código implementado") por el repo git o Colab real.
-
 ## Resultados clave
 
 | Sistema | F1-macro | Latencia |
